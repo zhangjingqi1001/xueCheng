@@ -20,5 +20,16 @@ swagger:
   description: "内容系统管理系统对课程相关信息进行管理"
   base-package: com.xuecheng.content
   enabled: true
-  version: 1.0.0
+  version: '1.0.0'
+
+#mybatismy-plus:
+#  check-config-location: true
+#  configuration:
+#    map-underscore-to-camel-case: true
+#  global-config:
+#    db-config:
+#      id-type: auto
+#      logic-delete-value: 1
+#      logic-not-delete-value: 0
+#      mapper-locations: classpath:mapper/*.xml
 
