@@ -1,0 +1,104 @@
+2023-11-07 22:01:27,628 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1066] - HikariPool-1 - configuration:
+2023-11-07 22:01:27,628 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1066] - HikariPool-1 - configuration:
+2023-11-07 22:01:27,691 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - allowPoolSuspension.............false
+2023-11-07 22:01:27,691 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - allowPoolSuspension.............false
+2023-11-07 22:01:27,692 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - autoCommit......................true
+2023-11-07 22:01:27,692 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - autoCommit......................true
+2023-11-07 22:01:27,693 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - catalog.........................none
+2023-11-07 22:01:27,693 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - catalog.........................none
+2023-11-07 22:01:27,694 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - connectionInitSql...............none
+2023-11-07 22:01:27,694 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - connectionInitSql...............none
+2023-11-07 22:01:27,697 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - connectionTestQuery.............none
+2023-11-07 22:01:27,697 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - connectionTestQuery.............none
+2023-11-07 22:01:27,698 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - connectionTimeout...............30000
+2023-11-07 22:01:27,698 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - connectionTimeout...............30000
+2023-11-07 22:01:27,711 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - dataSource......................none
+2023-11-07 22:01:27,711 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - dataSource......................none
+2023-11-07 22:01:27,712 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - dataSourceClassName.............none
+2023-11-07 22:01:27,712 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - dataSourceClassName.............none
+2023-11-07 22:01:27,715 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - dataSourceJNDI..................none
+2023-11-07 22:01:27,715 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - dataSourceProperties............{password=<masked>}
+2023-11-07 22:01:27,716 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-11-07 22:01:27,717 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - exceptionOverrideClassName......none
+2023-11-07 22:01:27,715 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - dataSourceJNDI..................none
+2023-11-07 22:01:27,715 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - dataSourceProperties............{password=<masked>}
+2023-11-07 22:01:27,717 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - healthCheckProperties...........{}
+2023-11-07 22:01:27,717 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - driverClassName................."com.mysql.cj.jdbc.Driver"
+2023-11-07 22:01:27,717 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - exceptionOverrideClassName......none
+2023-11-07 22:01:27,717 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - healthCheckProperties...........{}
+2023-11-07 22:01:27,718 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - healthCheckRegistry.............none
+2023-11-07 22:01:27,718 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - healthCheckRegistry.............none
+2023-11-07 22:01:27,720 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - idleTimeout.....................600000
+2023-11-07 22:01:27,720 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - idleTimeout.....................600000
+2023-11-07 22:01:27,721 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - initializationFailTimeout.......1
+2023-11-07 22:01:27,721 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - initializationFailTimeout.......1
+2023-11-07 22:01:27,721 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - isolateInternalQueries..........false
+2023-11-07 22:01:27,721 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - isolateInternalQueries..........false
+2023-11-07 22:01:27,722 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - jdbcUrl.........................jdbc:mysql://192.168.101.65:3306/xcplus_system?serverTimezone=UTC&userUnicode=true&useSSL=false&
+2023-11-07 22:01:27,722 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - jdbcUrl.........................jdbc:mysql://192.168.101.65:3306/xcplus_system?serverTimezone=UTC&userUnicode=true&useSSL=false&
+2023-11-07 22:01:27,723 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - leakDetectionThreshold..........0
+2023-11-07 22:01:27,723 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - leakDetectionThreshold..........0
+2023-11-07 22:01:27,724 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - maxLifetime.....................1800000
+2023-11-07 22:01:27,724 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - maxLifetime.....................1800000
+2023-11-07 22:01:27,725 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - maximumPoolSize.................10
+2023-11-07 22:01:27,725 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - maximumPoolSize.................10
+2023-11-07 22:01:27,726 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - metricRegistry..................none
+2023-11-07 22:01:27,726 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - metricRegistry..................none
+2023-11-07 22:01:27,740 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - metricsTrackerFactory...........none
+2023-11-07 22:01:27,740 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - metricsTrackerFactory...........none
+2023-11-07 22:01:27,741 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - minimumIdle.....................10
+2023-11-07 22:01:27,741 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - minimumIdle.....................10
+2023-11-07 22:01:27,742 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - password........................<masked>
+2023-11-07 22:01:27,742 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - password........................<masked>
+2023-11-07 22:01:27,742 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - poolName........................"HikariPool-1"
+2023-11-07 22:01:27,742 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - poolName........................"HikariPool-1"
+2023-11-07 22:01:27,743 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - readOnly........................false
+2023-11-07 22:01:27,743 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - readOnly........................false
+2023-11-07 22:01:27,744 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - registerMbeans..................false
+2023-11-07 22:01:27,744 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - registerMbeans..................false
+2023-11-07 22:01:27,745 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - scheduledExecutor...............none
+2023-11-07 22:01:27,745 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - scheduledExecutor...............none
+2023-11-07 22:01:27,746 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - schema..........................none
+2023-11-07 22:01:27,746 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - schema..........................none
+2023-11-07 22:01:27,747 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - threadFactory...................internal
+2023-11-07 22:01:27,747 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - threadFactory...................internal
+2023-11-07 22:01:27,748 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - transactionIsolation............default
+2023-11-07 22:01:27,748 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - transactionIsolation............default
+2023-11-07 22:01:27,749 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - username........................"root"
+2023-11-07 22:01:27,749 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - username........................"root"
+2023-11-07 22:01:27,750 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - validationTimeout...............5000
+2023-11-07 22:01:27,750 DEBUG [http-nio-63110-exec-3][HikariConfig.java:1098] - validationTimeout...............5000
+2023-11-07 22:01:27,751 INFO [http-nio-63110-exec-3][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-11-07 22:01:27,751 INFO [http-nio-63110-exec-3][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-11-07 22:01:28,368 DEBUG [http-nio-63110-exec-3][HikariPool.java:564] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@651a0747
+2023-11-07 22:01:28,368 DEBUG [http-nio-63110-exec-3][HikariPool.java:564] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@651a0747
+2023-11-07 22:01:28,377 INFO [http-nio-63110-exec-3][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-11-07 22:01:28,377 INFO [http-nio-63110-exec-3][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-11-07 22:01:28,440 DEBUG [http-nio-63110-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,code,item_values FROM dictionary
+2023-11-07 22:01:28,440 DEBUG [http-nio-63110-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,code,item_values FROM dictionary
+2023-11-07 22:01:28,487 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2023-11-07 22:01:28,487 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2023-11-07 22:01:28,503 DEBUG [http-nio-63110-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 
+2023-11-07 22:01:28,503 DEBUG [http-nio-63110-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 
+2023-11-07 22:01:28,711 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@19d6daa3
+2023-11-07 22:01:28,711 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@19d6daa3
+2023-11-07 22:01:28,720 DEBUG [http-nio-63110-exec-3][BaseJdbcLogger.java:137] - <==      Total: 17
+2023-11-07 22:01:28,720 DEBUG [http-nio-63110-exec-3][BaseJdbcLogger.java:137] - <==      Total: 17
+2023-11-07 22:01:28,886 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d423864
+2023-11-07 22:01:28,886 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d423864
+2023-11-07 22:01:29,101 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10693c8d
+2023-11-07 22:01:29,101 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10693c8d
+2023-11-07 22:01:29,208 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38b5e0e8
+2023-11-07 22:01:29,208 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38b5e0e8
+2023-11-07 22:01:29,453 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59d04867
+2023-11-07 22:01:29,453 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59d04867
+2023-11-07 22:01:29,574 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@503e3d72
+2023-11-07 22:01:29,574 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@503e3d72
+2023-11-07 22:01:29,676 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7477ee29
+2023-11-07 22:01:29,676 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7477ee29
+2023-11-07 22:01:29,759 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@109e08a4
+2023-11-07 22:01:29,759 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@109e08a4
+2023-11-07 22:01:29,877 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@269e2824
+2023-11-07 22:01:29,878 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2023-11-07 22:01:29,877 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@269e2824
+2023-11-07 22:01:29,878 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
