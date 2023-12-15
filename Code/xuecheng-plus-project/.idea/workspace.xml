@@ -5,25 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee3004af-e83d-4fff-83bf-d7767a24a746" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2023-11-01/error.2023-11-01-22.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2023-11-01/info.2023-11-01-23.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2023-11-02/info.2023-11-02-00.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2023-11-07/info.2023-11-07-21.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2023-11-07/info.2023-11-07-22.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/CourseCategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/dto/CourseCategoryTreeDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/CourseCategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CourseCategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Note/3.2 内容管理模块.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-11-15/info.2023-11-15-00.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-11-15/info.2023-11-15-20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-11-15/info.2023-11-15-21.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-11-15/info.2023-11-15-22.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-11-15/info.2023-11-15-23.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-12-15/info.2023-12-15-19.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-12-15/info.2023-12-15-20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-12-15/info.2023-12-15-21.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/exception/CommonError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/exception/RestErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/exception/ValidationGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/exception/XueChengPlusException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/TeachPlanController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/dto/AddCourseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/dto/CourseBaseInfoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/dto/EditCourseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/dto/TeachplanDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/logs/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/test/java/com/xuecheng/content/api/ContentApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/test/java/com/xuecheng/content/api/ContentApplicationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/mapper/CourseCategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/mapper/CourseCategoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/resources/mapper/CourseCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/resources/mapper/CourseCategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Note/3.内容管理模块.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Note/3.1内容管理模块.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/CourseBaseInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/CourseBaseInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/CourseBaseInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/CourseBaseInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CourseBaseInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CourseBaseInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Note/0.基础知识.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Note/0.基础知识.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Note/3.2 内容管理模块.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Note/3.2 内容管理模块.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +66,15 @@
     </option>
   </component>
   <component name="ProjectId" id="2XZveBdaDxQQ0mdHmcWxw1bVU8A" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -82,6 +93,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\zhangjingqi\Note\xuecheng\Code\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-model\src\main\java\com\xuecheng\content\model\dto" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -89,7 +105,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ContentApplicationTest.test02">
+  <component name="RunManager" selected="Spring Boot.ContentApplication">
     <configuration name="ContentApplicationTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="xuecheng-plus-content-api" />
       <extension name="coverage">
@@ -133,14 +149,14 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.ContentApplicationTest.test02" />
       <item itemvalue="Spring Boot.ContentApplication" />
       <item itemvalue="Spring Boot.SystemApplication" />
-      <item itemvalue="JUnit.ContentApplicationTest.test02" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SystemApplication" />
         <item itemvalue="Spring Boot.ContentApplication" />
+        <item itemvalue="Spring Boot.SystemApplication" />
         <item itemvalue="JUnit.ContentApplicationTest.test02" />
       </list>
     </recent_temporary>
@@ -156,6 +172,11 @@
       <workItem from="1698849515108" duration="3373000" />
       <workItem from="1699360024871" duration="6318000" />
       <workItem from="1699533658302" duration="5955000" />
+      <workItem from="1699967514246" duration="9096000" />
+      <workItem from="1700052371275" duration="7419000" />
+      <workItem from="1700379792641" duration="517000" />
+      <workItem from="1700742036794" duration="62000" />
+      <workItem from="1702640414217" duration="7061000" />
     </task>
     <servers />
   </component>
@@ -175,6 +196,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
