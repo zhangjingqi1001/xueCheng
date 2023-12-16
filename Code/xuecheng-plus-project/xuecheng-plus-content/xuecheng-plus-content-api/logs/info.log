@@ -1,8 +1,86 @@
-2023-11-09 23:01:53,794 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m40s733ms874µs800ns).
-2023-11-09 23:01:53,794 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m40s733ms874µs800ns).
-2023-11-09 23:01:53,881 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
-2023-11-09 23:01:53,881 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
-2023-11-09 23:01:53,888 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
-2023-11-09 23:01:53,888 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
-2023-11-09 23:01:54,140 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
-2023-11-09 23:01:54,140 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-12-16 20:06:52,094 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-12-16 20:06:52,094 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-12-16 20:06:53,813 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-12-16 20:06:53,813 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-12-16 20:06:55,512 INFO [main][GenericScope.java:295] - BeanFactory id=92b30973-5434-3395-8e93-f5caf76eed6b
+2023-12-16 20:06:55,512 INFO [main][GenericScope.java:295] - BeanFactory id=92b30973-5434-3395-8e93-f5caf76eed6b
+2023-12-16 20:07:03,951 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-12-16 20:07:03,951 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-12-16 20:07:05,802 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-16 20:07:05,802 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-16 20:07:07,272 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-12-16 20:07:07,272 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-12-16 20:07:07,335 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-12-16 20:07:07,335 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-12-16 20:07:07,471 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-12-16 20:07:07,471 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-12-16 20:07:08,375 INFO [main][StartupInfoLogger.java:61] - Started ContentApplicationTest in 17.454 seconds (JVM running for 21.92)
+2023-12-16 20:07:08,375 INFO [main][StartupInfoLogger.java:61] - Started ContentApplicationTest in 17.454 seconds (JVM running for 21.92)
+2023-12-16 20:07:09,103 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-16 20:07:09,103 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-16 20:07:09,705 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-12-16 20:07:09,705 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-12-16 20:07:10,000 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-16 20:07:10,000 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-16 20:07:10,008 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-12-16 20:07:10,008 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-12-16 20:07:10,051 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-12-16 20:07:10,051 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-12-16 20:08:39,450 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-12-16 20:08:39,450 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-12-16 20:08:42,513 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-12-16 20:08:42,513 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-12-16 20:08:45,075 INFO [main][GenericScope.java:295] - BeanFactory id=92b30973-5434-3395-8e93-f5caf76eed6b
+2023-12-16 20:08:45,075 INFO [main][GenericScope.java:295] - BeanFactory id=92b30973-5434-3395-8e93-f5caf76eed6b
+2023-12-16 20:08:54,392 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-12-16 20:08:54,392 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-12-16 20:08:55,422 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-16 20:08:55,422 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-16 20:08:56,671 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-12-16 20:08:56,671 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-12-16 20:08:56,706 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-12-16 20:08:56,706 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-12-16 20:08:56,795 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-12-16 20:08:56,795 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-12-16 20:08:57,642 INFO [main][StartupInfoLogger.java:61] - Started ContentApplicationTest in 19.983 seconds (JVM running for 24.07)
+2023-12-16 20:08:57,642 INFO [main][StartupInfoLogger.java:61] - Started ContentApplicationTest in 19.983 seconds (JVM running for 24.07)
+2023-12-16 20:08:58,471 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-16 20:08:58,471 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-16 20:08:59,013 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-12-16 20:08:59,013 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-12-16 20:08:59,294 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-16 20:08:59,294 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-16 20:08:59,304 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-12-16 20:08:59,304 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-12-16 20:08:59,344 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-12-16 20:08:59,344 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-12-16 20:15:37,496 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-12-16 20:15:37,496 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-12-16 20:15:40,009 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-12-16 20:15:40,009 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2023-12-16 20:15:42,888 INFO [main][GenericScope.java:295] - BeanFactory id=92b30973-5434-3395-8e93-f5caf76eed6b
+2023-12-16 20:15:42,888 INFO [main][GenericScope.java:295] - BeanFactory id=92b30973-5434-3395-8e93-f5caf76eed6b
+2023-12-16 20:15:56,986 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-12-16 20:15:56,986 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-12-16 20:15:58,628 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-16 20:15:58,628 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-16 20:16:00,326 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-12-16 20:16:00,326 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-12-16 20:16:00,381 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-12-16 20:16:00,381 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-12-16 20:16:00,528 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-12-16 20:16:00,528 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-12-16 20:16:01,440 INFO [main][StartupInfoLogger.java:61] - Started ContentApplicationTest in 25.406 seconds (JVM running for 30.407)
+2023-12-16 20:16:01,440 INFO [main][StartupInfoLogger.java:61] - Started ContentApplicationTest in 25.406 seconds (JVM running for 30.407)
+2023-12-16 20:16:02,439 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-16 20:16:02,439 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2023-12-16 20:16:03,176 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-12-16 20:16:03,176 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2023-12-16 20:18:09,728 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m6s449ms946µs200ns).
+2023-12-16 20:18:09,728 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m6s449ms946µs200ns).
+2023-12-16 20:18:09,770 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-16 20:18:09,770 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2023-12-16 20:18:09,774 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-12-16 20:18:09,774 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2023-12-16 20:18:10,020 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2023-12-16 20:18:10,020 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.

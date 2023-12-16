@@ -57,7 +57,7 @@
 2023-11-15 00:01:50,262 ERROR [http-nio-63040-exec-1][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/content] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error updating database.  Cause: java.sql.SQLException: Field 'company_id' doesn't have a default value
 ### The error may exist in com/xuecheng/content/mapper/CourseBaseMapper.java (best guess)
-### The error may involve com.xuecheng.content.mapper.CourseBaseMapper.insert-Inline
+### The error may involve CourseBaseMapper.insert-Inline
 ### The error occurred while setting parameters
 ### SQL: INSERT INTO course_base  ( name, users, tags, mt, st, grade, teachmode, description, pic, create_date, change_date,   audit_status, status )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,   ?, ? )
 ### Cause: java.sql.SQLException: Field 'company_id' doesn't have a default value
@@ -167,7 +167,7 @@ java.sql.SQLException: Field 'company_id' doesn't have a default value
 2023-11-15 00:01:50,262 ERROR [http-nio-63040-exec-1][DirectJDKLog.java:175] - Servlet.service() for servlet [dispatcherServlet] in context with path [/content] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: 
 ### Error updating database.  Cause: java.sql.SQLException: Field 'company_id' doesn't have a default value
 ### The error may exist in com/xuecheng/content/mapper/CourseBaseMapper.java (best guess)
-### The error may involve com.xuecheng.content.mapper.CourseBaseMapper.insert-Inline
+### The error may involve CourseBaseMapper.insert-Inline
 ### The error occurred while setting parameters
 ### SQL: INSERT INTO course_base  ( name, users, tags, mt, st, grade, teachmode, description, pic, create_date, change_date,   audit_status, status )  VALUES  ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?,   ?, ? )
 ### Cause: java.sql.SQLException: Field 'company_id' doesn't have a default value
