@@ -1,0 +1,78 @@
+2023-12-17 23:04:50,656 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-12-17 23:04:50,656 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-12-17 23:04:55,372 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api] & group[xuecheng-plus-project]
+2023-12-17 23:04:55,372 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api] & group[xuecheng-plus-project]
+2023-12-17 23:04:55,389 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api.yaml] & group[xuecheng-plus-project]
+2023-12-17 23:04:55,389 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api.yaml] & group[xuecheng-plus-project]
+2023-12-17 23:04:55,414 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-content-api-dev.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api,xuecheng-plus-project'}]
+2023-12-17 23:04:55,414 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-content-api-dev.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api,xuecheng-plus-project'}]
+2023-12-17 23:04:55,475 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-12-17 23:04:55,475 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-12-17 23:04:57,962 INFO [main][GenericScope.java:295] - BeanFactory id=656afab9-302f-3a63-b962-b84984025447
+2023-12-17 23:04:57,962 INFO [main][GenericScope.java:295] - BeanFactory id=656afab9-302f-3a63-b962-b84984025447
+2023-12-17 23:04:58,845 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2023-12-17 23:04:58,845 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2023-12-17 23:04:58,873 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2023-12-17 23:04:58,873 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2023-12-17 23:04:58,874 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-17 23:04:58,874 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-17 23:04:58,875 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-12-17 23:04:58,875 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-12-17 23:04:59,135 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-17 23:04:59,135 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-17 23:04:59,136 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 3624 ms
+2023-12-17 23:04:59,136 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 3624 ms
+2023-12-17 23:05:07,011 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-12-17 23:05:07,011 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-12-17 23:05:07,154 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-12-17 23:05:07,154 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-12-17 23:05:07,156 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-12-17 23:05:07,156 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-12-17 23:05:07,168 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-12-17 23:05:07,168 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-12-17 23:05:07,169 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-12-17 23:05:07,169 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-12-17 23:05:07,513 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-17 23:05:07,513 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-17 23:05:11,025 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-12-17 23:05:11,025 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-12-17 23:05:14,368 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-12-17 23:05:14,368 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-12-17 23:05:14,371 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-12-17 23:05:14,371 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-12-17 23:05:14,373 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-12-17 23:05:14,373 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-12-17 23:05:14,596 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2023-12-17 23:05:14,596 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2023-12-17 23:05:14,677 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2023-12-17 23:05:14,677 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2023-12-17 23:05:14,687 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=63040, ip='192.168.140.1', weight=1.0, serviceName='xuecheng-plus-project@@content-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-12-17 23:05:14,687 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=63040, ip='192.168.140.1', weight=1.0, serviceName='xuecheng-plus-project@@content-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-12-17 23:05:14,690 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service xuecheng-plus-project@@content-api with instance: Instance{instanceId='null', ip='192.168.140.1', port=63040, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-12-17 23:05:14,690 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service xuecheng-plus-project@@content-api with instance: Instance{instanceId='null', ip='192.168.140.1', port=63040, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-12-17 23:05:14,706 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project content-api 192.168.140.1:63040 register finished
+2023-12-17 23:05:14,706 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project content-api 192.168.140.1:63040 register finished
+2023-12-17 23:05:15,622 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@content-api@@DEFAULT -> [{"instanceId":"192.168.140.1#63040#DEFAULT#xuecheng-plus-project@@content-api","ip":"192.168.140.1","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-12-17 23:05:15,622 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@content-api@@DEFAULT -> [{"instanceId":"192.168.140.1#63040#DEFAULT#xuecheng-plus-project@@content-api","ip":"192.168.140.1","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-12-17 23:05:15,635 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@content-api@@DEFAULT -> [{"instanceId":"192.168.140.1#63040#DEFAULT#xuecheng-plus-project@@content-api","ip":"192.168.140.1","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-12-17 23:05:15,635 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@content-api@@DEFAULT -> [{"instanceId":"192.168.140.1#63040#DEFAULT#xuecheng-plus-project@@content-api","ip":"192.168.140.1","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2023-12-17 23:05:18,516 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-12-17 23:05:18,516 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-12-17 23:05:18,552 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-12-17 23:05:18,552 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-12-17 23:05:18,664 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-12-17 23:05:18,664 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-12-17 23:05:19,186 INFO [main][StartupInfoLogger.java:61] - Started ContentApplication in 33.926 seconds (JVM running for 47.311)
+2023-12-17 23:05:19,186 INFO [main][StartupInfoLogger.java:61] - Started ContentApplication in 33.926 seconds (JVM running for 47.311)
+2023-12-17 23:05:19,195 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] content-api.yaml+xuecheng-plus-project+dev
+2023-12-17 23:05:19,195 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] content-api.yaml+xuecheng-plus-project+dev
+2023-12-17 23:05:19,199 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api.yaml, group=xuecheng-plus-project, cnt=1
+2023-12-17 23:05:19,199 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api.yaml, group=xuecheng-plus-project, cnt=1
+2023-12-17 23:05:19,202 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] content-api+xuecheng-plus-project+dev
+2023-12-17 23:05:19,202 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] content-api+xuecheng-plus-project+dev
+2023-12-17 23:05:19,202 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api, group=xuecheng-plus-project, cnt=1
+2023-12-17 23:05:19,202 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api, group=xuecheng-plus-project, cnt=1
+2023-12-17 23:05:19,205 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] content-api-dev.yaml+xuecheng-plus-project+dev
+2023-12-17 23:05:19,205 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] content-api-dev.yaml+xuecheng-plus-project+dev
+2023-12-17 23:05:19,205 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api-dev.yaml, group=xuecheng-plus-project, cnt=1
+2023-12-17 23:05:19,205 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api-dev.yaml, group=xuecheng-plus-project, cnt=1

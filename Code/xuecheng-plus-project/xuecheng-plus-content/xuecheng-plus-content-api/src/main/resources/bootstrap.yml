@@ -1,26 +1,51 @@
-server:
-  servlet:
-    context-path: /content
-  port: 63040
+#server:
+#  servlet:
+#    context-path: /content
+#  port: 63040
 #微服务配置
 spring:
   application:
-    name: content-api
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://192.168.101.65:3306/xcplus_content?serverTimezone=UTC&userUnicode=true&useSSL=false&
-    username: root
-    password: mysql
+    name: content-api # 项目名
+  cloud:
+    nacos:
+      server-addr: 192.168.101.65:8848 #Nacos地址
+      discovery: #服务发现（服务注册）
+        namespace: dev #命名空间
+        group: xuecheng-plus-project #组别
+      config: # 配置中心
+        namespace: dev #命名空间
+        group: xuecheng-plus-project
+        file-extension: yaml #文件后缀
+        refresh-enabled: true # 当将 refresh 设置为 true 时，应用程序会定期从Nacos服务器获取配置并刷新已加载的配置
+        extension-configs: # 扩展配置信息的引用
+          #${spring.profiles.active} 这个写法就会找到此文件中spring.profiles.active对应的值
+          - data-id: content-service-${spring.profiles.active}.yaml
+            group: xuecheng-plus-project
+            refresh: true
+        shared-configs: #公用配置
+          - data-id: swagger-${spring.profiles.active}.yaml
+            group: xuecheng-plus-common
+            refresh: true
+          - data-id: logging-${spring.profiles.active}.yaml
+            group: xuecheng-plus-common
+            refresh: true
+  profiles:
+    active: dev
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://192.168.101.65:3306/xcplus_content?serverTimezone=UTC&userUnicode=true&useSSL=false&
+#    username: root
+#    password: mysql
 # 日志文件配置路径
-logging:
-  config: classpath:log4j2-dev.xml
-
-swagger:
-  title: "学成在线内容管理系统"
-  description: "内容系统管理系统对课程相关信息进行管理"
-  base-package: com.xuecheng.content
-  enabled: true
-  version: '1.0.0'
+#logging:
+#  config: classpath:log4j2-dev.xml
+#
+#swagger:
+#  title: "学成在线内容管理系统"
+#  description: "内容系统管理系统对课程相关信息进行管理"
+#  base-package: com.xuecheng.content
+#  enabled: true
+#  version: '1.0.0'
 
 #mybatismy-plus:
 #  check-config-location: true

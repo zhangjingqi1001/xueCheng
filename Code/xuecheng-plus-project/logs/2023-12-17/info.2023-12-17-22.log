@@ -1,0 +1,165 @@
+2023-12-17 22:46:42,406 WARN [Thread-42][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-17 22:46:42,406 WARN [Thread-42][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-17 22:46:42,406 WARN [Thread-48][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-17 22:46:42,406 WARN [Thread-48][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-17 22:46:42,428 WARN [Thread-48][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-17 22:46:42,428 WARN [Thread-48][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-17 22:46:42,428 WARN [Thread-42][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-17 22:46:42,428 WARN [Thread-42][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-17 22:46:59,834 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-12-17 22:46:59,834 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-12-17 22:47:02,832 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-12-17 22:47:02,832 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-12-17 22:47:04,471 INFO [main][GenericScope.java:295] - BeanFactory id=1f047984-df51-324d-ad9f-fcdbea3e8209
+2023-12-17 22:47:04,471 INFO [main][GenericScope.java:295] - BeanFactory id=1f047984-df51-324d-ad9f-fcdbea3e8209
+2023-12-17 22:47:04,979 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8080 (http)
+2023-12-17 22:47:04,979 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 8080 (http)
+2023-12-17 22:47:04,996 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-17 22:47:04,996 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-8080"]
+2023-12-17 22:47:04,997 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-17 22:47:04,997 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-17 22:47:04,998 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-12-17 22:47:04,998 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-12-17 22:47:05,354 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-17 22:47:05,354 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-17 22:47:05,355 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 2505 ms
+2023-12-17 22:47:05,355 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 2505 ms
+2023-12-17 22:47:05,594 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseInfoController': Unsatisfied dependency expressed through field 'courseBaseInfoService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseInfoServiceImpl': Unsatisfied dependency expressed through field 'courseBaseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseMapper' defined in file [D:\zhangjingqi\Note\xuecheng\Code\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\com\xuecheng\content\mapper\CourseBaseMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2023-12-17 22:47:05,594 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseInfoController': Unsatisfied dependency expressed through field 'courseBaseInfoService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseInfoServiceImpl': Unsatisfied dependency expressed through field 'courseBaseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseMapper' defined in file [D:\zhangjingqi\Note\xuecheng\Code\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\com\xuecheng\content\mapper\CourseBaseMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2023-12-17 22:47:05,597 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-12-17 22:47:05,597 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-12-17 22:47:05,620 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-12-17 22:47:05,620 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-12-17 22:47:05,639 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2023-12-17 22:56:03,772 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-12-17 22:56:03,772 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-12-17 22:56:09,315 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api] & group[xuecheng-plus-project]
+2023-12-17 22:56:09,315 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api] & group[xuecheng-plus-project]
+2023-12-17 22:56:09,352 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api.yaml] & group[xuecheng-plus-project]
+2023-12-17 22:56:09,352 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api.yaml] & group[xuecheng-plus-project]
+2023-12-17 22:56:09,486 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-content-api-dev.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api,xuecheng-plus-project'}]
+2023-12-17 22:56:09,486 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-content-api-dev.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api,xuecheng-plus-project'}]
+2023-12-17 22:56:09,524 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-12-17 22:56:09,524 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-12-17 22:56:11,478 INFO [main][GenericScope.java:295] - BeanFactory id=656afab9-302f-3a63-b962-b84984025447
+2023-12-17 22:56:11,478 INFO [main][GenericScope.java:295] - BeanFactory id=656afab9-302f-3a63-b962-b84984025447
+2023-12-17 22:56:12,171 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2023-12-17 22:56:12,171 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2023-12-17 22:56:12,195 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2023-12-17 22:56:12,195 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2023-12-17 22:56:12,196 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-17 22:56:12,196 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-17 22:56:12,197 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-12-17 22:56:12,197 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-12-17 22:56:12,406 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-17 22:56:12,406 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-17 22:56:12,407 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 2846 ms
+2023-12-17 22:56:12,407 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 2846 ms
+2023-12-17 22:56:12,750 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseInfoController': Unsatisfied dependency expressed through field 'courseBaseInfoService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseInfoServiceImpl': Unsatisfied dependency expressed through field 'courseBaseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseMapper' defined in file [D:\zhangjingqi\Note\xuecheng\Code\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\com\xuecheng\content\mapper\CourseBaseMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2023-12-17 22:56:12,750 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseInfoController': Unsatisfied dependency expressed through field 'courseBaseInfoService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseInfoServiceImpl': Unsatisfied dependency expressed through field 'courseBaseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseMapper' defined in file [D:\zhangjingqi\Note\xuecheng\Code\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\com\xuecheng\content\mapper\CourseBaseMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2023-12-17 22:56:12,753 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-12-17 22:56:12,753 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-12-17 22:56:12,786 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-12-17 22:56:12,786 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-12-17 22:56:12,818 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2023-12-17 22:56:12,824 WARN [Thread-9][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-17 22:56:12,826 WARN [Thread-9][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-17 22:58:27,354 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-12-17 22:58:27,354 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2023-12-17 22:58:30,635 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api] & group[xuecheng-plus-project]
+2023-12-17 22:58:30,635 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api] & group[xuecheng-plus-project]
+2023-12-17 22:58:30,644 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api.yaml] & group[xuecheng-plus-project]
+2023-12-17 22:58:30,644 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api.yaml] & group[xuecheng-plus-project]
+2023-12-17 22:58:30,672 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-content-api-dev.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api,xuecheng-plus-project'}]
+2023-12-17 22:58:30,672 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-content-api-dev.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api,xuecheng-plus-project'}]
+2023-12-17 22:58:30,707 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-12-17 22:58:30,707 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-12-17 22:58:32,218 INFO [main][GenericScope.java:295] - BeanFactory id=656afab9-302f-3a63-b962-b84984025447
+2023-12-17 22:58:32,218 INFO [main][GenericScope.java:295] - BeanFactory id=656afab9-302f-3a63-b962-b84984025447
+2023-12-17 22:58:32,757 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2023-12-17 22:58:32,757 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2023-12-17 22:58:32,773 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2023-12-17 22:58:32,773 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2023-12-17 22:58:32,773 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-17 22:58:32,773 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-17 22:58:32,774 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-12-17 22:58:32,774 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-12-17 22:58:32,957 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-17 22:58:32,957 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-17 22:58:32,957 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 2228 ms
+2023-12-17 22:58:32,957 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 2228 ms
+2023-12-17 22:58:33,184 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseInfoController': Unsatisfied dependency expressed through field 'courseBaseInfoService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseInfoServiceImpl': Unsatisfied dependency expressed through field 'courseBaseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseMapper' defined in file [D:\zhangjingqi\Note\xuecheng\Code\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\com\xuecheng\content\mapper\CourseBaseMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2023-12-17 22:58:33,184 WARN [main][AbstractApplicationContext.java:559] - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseInfoController': Unsatisfied dependency expressed through field 'courseBaseInfoService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseInfoServiceImpl': Unsatisfied dependency expressed through field 'courseBaseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'courseBaseMapper' defined in file [D:\zhangjingqi\Note\xuecheng\Code\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\com\xuecheng\content\mapper\CourseBaseMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionFactory' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+2023-12-17 22:58:33,187 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-12-17 22:58:33,187 INFO [main][DirectJDKLog.java:173] - Stopping service [Tomcat]
+2023-12-17 22:58:33,214 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-12-17 22:58:33,214 INFO [main][ConditionEvaluationReportLoggingListener.java:136] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-12-17 22:58:33,232 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2023-12-17 22:58:33,237 WARN [Thread-8][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-17 22:58:33,238 WARN [Thread-8][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
