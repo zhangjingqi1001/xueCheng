@@ -13,6 +13,8 @@ import org.springframework.http.MediaType;
 import java.io.*;
 import java.security.InvalidKeyException;
 import java.security.NoSuchAlgorithmException;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 测试minio的SDK
@@ -115,11 +117,76 @@ public class MinioTest {
             String local_md5 = DigestUtils.md5Hex(new FileInputStream(new File("E:\\TestsMinIo.java")));
 
 
-            if (source_md5.equals(local_md5)){
+            if (source_md5.equals(local_md5)) {
                 System.out.println("下载成功");
             }
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
+
+    /**
+     * 将分块文件上传到minio
+     */
+    @Test
+    public void uploadChunk() throws Exception {
+        //获取所有的分块文件
+        File file = new File("E:\\chunk\\");
+        File[] files = file.listFiles();
+        for (File chunkFile : files) {
+            minioClient.uploadObject(
+                    UploadObjectArgs.builder()
+                            //桶，也就是目录
+                            .bucket("testbucket")
+                            //指定本地文件的路径
+                            .filename(chunkFile.getAbsolutePath())
+                            //对象名
+                            .object("chunk/" + chunkFile.getName())
+                            //构建
+                            .build());
+            System.out.println("上传分块" + chunkFile.getName() + "成功");
+        }
+    }
+
+    /**
+     * 调用minio接口合并分块
+     */
+    @Test
+    public void merge() throws ServerException, InsufficientDataException, ErrorResponseException, IOException, NoSuchAlgorithmException, InvalidKeyException, InvalidResponseException, XmlParserException, InternalException {
+        //分块文件集合
+        List<ComposeSource> sources = new ArrayList<>();
+        sources.add(ComposeSource.builder()
+                //分块文件所在桶
+                .bucket("testbucket")
+                //分块文件名称
+                .object("chunk/0")
+                .build());
+        sources.add(ComposeSource.builder()
+                //分块文件所在桶
+                .bucket("testbucket")
+                //分块文件名称
+                .object("chunk/1")
+                .build());
+
+        ComposeObjectArgs composeObjectArgs = ComposeObjectArgs.builder()
+                //指定合并后文件在哪个桶里
+                .bucket("testbucket")
+                //最终合并后的文件路径及名称
+                .object("merge/merge01.mp4")
+                //指定分块源文件
+                .sources(sources)
+                .build();
+        //合并分块
+        minioClient.composeObject(composeObjectArgs);
+    }
+
+    /**
+     * 批量清理分块文件
+     */
+    @Test
+    public void test2() {
+
+    }
+
+
 }
