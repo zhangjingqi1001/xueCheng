@@ -1,0 +1,2 @@
+将uploadtools.ts文件覆盖前端工程src/utils 目录下的同名文件
+将 media-add-dialog.vue文件覆盖前端工程src\module-organization\pages\media-manage\components目录下的同名文件

@@ -5,26 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee3004af-e83d-4fff-83bf-d7767a24a746" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/logs/2023-12-23/info.2023-12-23-01.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2023-12-23/info.2023-12-23-20.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2023-12-23/info.2023-12-23-21.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/model/RestResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/src/main/java/com/xuecheng/media/api/BigFilesController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/test/java/com/xuecheng/media/BigFileTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vue/project-xczx2-portal-vue-ts/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../Vue/project-xczx2-portal-vue-ts/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-12-19/error.2023-12-19-00.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-12-24/info.2023-12-24-01.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-12-24/info.2023-12-24-16.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-12-24/info.2023-12-24-17.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-12-24/info.2023-12-24-18.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2023-12-24/info.2023-12-24-19.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-gateway/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-gateway/src/main/resources/bootstrap.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/src/main/java/com/xuecheng/media/api/MediaFilesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/src/main/java/com/xuecheng/media/api/MediaFilesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/target/classes/com/xuecheng/media/api/MediaFilesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/target/classes/com/xuecheng/media/api/MediaFilesController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/model/RestResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/model/RestResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/src/main/java/com/xuecheng/media/api/BigFilesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/src/main/java/com/xuecheng/media/api/BigFilesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-api/target/classes/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/logs/info.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/service/MediaFileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/service/MediaFileService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/service/impl/MediaFileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/service/impl/MediaFileServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/test/java/com/xuecheng/media/MinioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/test/java/com/xuecheng/media/MinioTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/target/classes/com/xuecheng/media/service/MediaFileService.class" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/target/classes/com/xuecheng/media/service/MediaFileService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/target/classes/com/xuecheng/media/service/impl/MediaFileServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/target/classes/com/xuecheng/media/service/impl/MediaFileServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/target/test-classes/com/xuecheng/media/MinioTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/target/test-classes/com/xuecheng/media/MinioTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Note/4.1 媒资管理模块 - Nacos与Gateway搭建.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Note/4.1 媒资管理模块 - Nacos与Gateway搭建.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Note/0.1 基础知识.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Note/0.1 基础知识.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Note/4.3 媒资管理模块 - 上传图片与视频.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Note/4.3 媒资管理模块 - 上传图片与视频.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,8 +123,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MinioTest.merge">
-    <configuration name="BigFileTest.testChunk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MinioTest.a">
+    <configuration name="MinioTest.a" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="xuecheng-plus-media-service" />
       <extension name="coverage">
         <pattern>
@@ -132,24 +133,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.xuecheng.media" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.media.BigFileTest" />
-      <option name="METHOD_NAME" value="testChunk" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BigFileTest.testMerge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xuecheng-plus-media-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xuecheng.media.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xuecheng.media" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.media.BigFileTest" />
-      <option name="METHOD_NAME" value="testMerge" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.media.MinioTest" />
+      <option name="METHOD_NAME" value="a" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -171,18 +156,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinioTest.uploadChunk" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xuecheng-plus-media-service" />
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="xuecheng-plus-gateway" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuecheng.media.*" />
+          <option name="PATTERN" value="com.xuecheng.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.xuecheng.media" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.media.MinioTest" />
-      <option name="METHOD_NAME" value="uploadChunk" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.GatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -200,20 +182,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="xuecheng-plus-system-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuecheng.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.system.SystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Spring Boot.MediaApplication" />
-      <item itemvalue="JUnit.BigFileTest.testChunk" />
-      <item itemvalue="JUnit.BigFileTest.testMerge" />
-      <item itemvalue="JUnit.MinioTest.uploadChunk" />
       <item itemvalue="JUnit.MinioTest.merge" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.MediaApplication" />
+      <item itemvalue="Spring Boot.SystemApplication" />
+      <item itemvalue="JUnit.MinioTest.a" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MinioTest.merge" />
-        <item itemvalue="JUnit.MinioTest.uploadChunk" />
-        <item itemvalue="JUnit.BigFileTest.testMerge" />
-        <item itemvalue="JUnit.BigFileTest.testChunk" />
+        <item itemvalue="JUnit.MinioTest.a" />
+        <item itemvalue="Spring Boot.SystemApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.MediaApplication" />
+        <item itemvalue="JUnit.MinioTest.merge" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +237,9 @@
       <workItem from="1703072761084" duration="6515000" />
       <workItem from="1703171636632" duration="833000" />
       <workItem from="1703244674113" duration="10452000" />
-      <workItem from="1703325758346" duration="21773000" />
+      <workItem from="1703325758346" duration="22276000" />
+      <workItem from="1703399516573" duration="22758000" />
+      <workItem from="1703432998034" duration="1739000" />
     </task>
     <servers />
   </component>
@@ -273,6 +270,11 @@
           <url>file://$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/test/java/com/xuecheng/content/api/ContentApplicationTest.java</url>
           <line>42</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/test/java/com/xuecheng/media/MinioTest.java</url>
+          <line>189</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

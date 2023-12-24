@@ -9,6 +9,7 @@ import org.apache.commons.io.IOUtils;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.MediaType;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.io.*;
 import java.security.InvalidKeyException;
@@ -184,9 +185,15 @@ public class MinioTest {
      * 批量清理分块文件
      */
     @Test
-    public void test2() {
-
+    @Transactional
+    public void a() {
+        this.b();
     }
 
 
+    @Test
+    @Transactional
+    public void b() {
+
+    }
 }

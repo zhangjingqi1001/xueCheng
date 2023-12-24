@@ -1,0 +1,18 @@
+2023-12-24 01:50:37,515 WARN [Thread-95][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-24 01:50:37,515 WARN [Thread-18][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-24 01:50:37,515 WARN [Thread-95][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-24 01:50:37,516 WARN [Thread-18][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-24 01:50:37,685 WARN [Thread-95][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-24 01:50:37,685 WARN [Thread-95][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-24 01:50:37,700 WARN [Thread-18][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-24 01:50:37,700 WARN [Thread-18][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-24 01:50:38,234 WARN [Thread-15][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-24 01:50:38,234 WARN [Thread-15][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-24 01:50:38,236 WARN [Thread-15][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-24 01:50:38,236 WARN [Thread-15][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-24 01:50:38,240 WARN [Thread-107][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-24 01:50:38,240 WARN [Thread-107][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-24 01:50:38,240 WARN [Thread-107][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-24 01:50:38,240 WARN [Thread-107][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-24 01:50:38,323 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40system-api&udpPort=57301&clusters=DEFAULT, body: {}
+2023-12-24 01:50:38,323 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40system-api&udpPort=57301&clusters=DEFAULT, body: {}

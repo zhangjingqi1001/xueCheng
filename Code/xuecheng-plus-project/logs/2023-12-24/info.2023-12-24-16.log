@@ -1,0 +1,12 @@
+2023-12-24 17:00:00,413 DEBUG [http-nio-63050-exec-8][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) FROM media_files
+2023-12-24 17:00:00,413 DEBUG [http-nio-63050-exec-8][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) FROM media_files
+2023-12-24 17:00:00,443 DEBUG [http-nio-63050-exec-8][BaseJdbcLogger.java:137] - ==> Parameters: 
+2023-12-24 17:00:00,443 DEBUG [http-nio-63050-exec-8][BaseJdbcLogger.java:137] - ==> Parameters: 
+2023-12-24 17:00:00,451 DEBUG [http-nio-63050-exec-8][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-12-24 17:00:00,451 DEBUG [http-nio-63050-exec-8][BaseJdbcLogger.java:137] - <==      Total: 1
+2023-12-24 17:00:00,453 DEBUG [http-nio-63050-exec-8][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,filename,file_type,tags,bucket,file_path,file_id,url,username,create_date,change_date,status,remark,audit_status,audit_mind,file_size FROM media_files LIMIT ?
+2023-12-24 17:00:00,453 DEBUG [http-nio-63050-exec-8][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,filename,file_type,tags,bucket,file_path,file_id,url,username,create_date,change_date,status,remark,audit_status,audit_mind,file_size FROM media_files LIMIT ?
+2023-12-24 17:00:00,454 DEBUG [http-nio-63050-exec-8][BaseJdbcLogger.java:137] - ==> Parameters: 10(Long)
+2023-12-24 17:00:00,454 DEBUG [http-nio-63050-exec-8][BaseJdbcLogger.java:137] - ==> Parameters: 10(Long)
+2023-12-24 17:00:00,480 DEBUG [http-nio-63050-exec-8][BaseJdbcLogger.java:137] - <==      Total: 10
+2023-12-24 17:00:00,480 DEBUG [http-nio-63050-exec-8][BaseJdbcLogger.java:137] - <==      Total: 10

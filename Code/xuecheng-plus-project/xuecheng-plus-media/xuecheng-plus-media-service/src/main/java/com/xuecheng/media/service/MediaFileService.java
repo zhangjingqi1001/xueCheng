@@ -2,6 +2,7 @@ package com.xuecheng.media.service;
 
 import com.xuecheng.base.model.PageParams;
 import com.xuecheng.base.model.PageResult;
+import com.xuecheng.base.model.RestResponse;
 import com.xuecheng.media.model.dto.QueryMediaParamsDto;
 import com.xuecheng.media.model.dto.UploadFileParamsDto;
 import com.xuecheng.media.model.dto.UploadFileResultDto;
@@ -34,15 +35,55 @@ public interface MediaFileService {
     public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath);
 
     /**
-     * @description 将文件信息添加到文件表
-     * @param companyId  机构id
-     * @param fileMd5  文件md5值
-     * @param uploadFileParamsDto  上传文件的信息
-     * @param bucket  桶
-     * @param objectName 对象名称
+     * @param companyId           机构id
+     * @param fileMd5             文件md5值
+     * @param uploadFileParamsDto 上传文件的信息
+     * @param bucket              桶
+     * @param objectName          对象名称
      * @return com.xuecheng.media.model.po.MediaFiles
+     * @description 将文件信息添加到文件表
      */
 
     public MediaFiles addMediaFilesToDb(Long companyId, String fileMd5, UploadFileParamsDto uploadFileParamsDto, String bucket, String objectName);
+
+
+    /**
+     * @param fileMd5 文件的md5
+     * @return com.xuecheng.base.model.RestResponse<java.lang.Boolean> false不存在，true存在
+     * @description 检查文件是否存在
+     */
+    public RestResponse<Boolean> checkFile(String fileMd5);
+
+    /**
+     * @param fileMd5    文件的md5
+     * @param chunkIndex 分块序号
+     * @return com.xuecheng.base.model.RestResponse<java.lang.Boolean> false不存在，true存在
+     * @description 检查分块是否存在
+     */
+    public RestResponse<Boolean> checkChunk(String fileMd5, int chunkIndex);
+
+
+    /**
+     * @description 上传分块
+     * @param fileMd5  文件md5
+     * @param chunk  分块序号
+     * @param localChunkFilePath  本地文件路径
+     * @return com.xuecheng.base.model.RestResponse
+     */
+    public RestResponse uploadChunk(String fileMd5,int chunk,String localChunkFilePath);
+
+    /**
+     * 为什么又companyId 机构ID？
+     *   分布式文件系统空间不是随便使用的，比如某个机构传输的课程很多很多，那我们就可以收费了（比如超过1Tb便开始收费）
+     *   知道了companyId我们就知道是谁传的，也知道这些机构用了多少GB
+     * @description 合并分块
+     * @param companyId  机构id
+     * @param fileMd5  文件md5
+     * @param chunkTotal 分块总和
+     * @param uploadFileParamsDto 文件信息（要入库）
+     * @return com.xuecheng.base.model.RestResponse
+     */
+    public RestResponse mergeChunks(Long companyId,String fileMd5,int chunkTotal,UploadFileParamsDto uploadFileParamsDto);
+
 
 }
