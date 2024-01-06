@@ -92,6 +92,10 @@
     <orderEntry type="library" name="Maven: org.mybatis:mybatis:3.5.6" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.18.8" level="project" />
     <orderEntry type="module" module-name="xuecheng-plus-media-service" />
+    <orderEntry type="module" module-name="xxl-job-core" />
+    <orderEntry type="library" name="Maven: io.netty:netty-all:4.1.55.Final" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.6" level="project" />
+    <orderEntry type="library" name="Maven: org.codehaus.groovy:groovy:2.5.14" level="project" />
     <orderEntry type="library" name="Maven: io.minio:minio:8.4.3" level="project" />
     <orderEntry type="library" name="Maven: com.carrotsearch.thirdparty:simple-xml-safe:2.7.1" level="project" />
     <orderEntry type="library" name="Maven: org.bouncycastle:bcprov-jdk15on:1.69" level="project" />

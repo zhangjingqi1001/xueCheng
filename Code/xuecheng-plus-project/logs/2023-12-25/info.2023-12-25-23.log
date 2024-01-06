@@ -1,0 +1,809 @@
+2023-12-25 23:19:39,662 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-12-25 23:19:39,662 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-12-25 23:19:45,918 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-12-25 23:19:45,918 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-12-25 23:19:46,401 INFO [main][GenericScope.java:295] - BeanFactory id=412b7a00-cd6b-37bc-91b3-bdc8aee69992
+2023-12-25 23:19:46,401 INFO [main][GenericScope.java:295] - BeanFactory id=412b7a00-cd6b-37bc-91b3-bdc8aee69992
+2023-12-25 23:19:48,593 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2023-12-25 23:19:48,593 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2023-12-25 23:19:48,638 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2023-12-25 23:19:48,638 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2023-12-25 23:19:48,641 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-25 23:19:48,641 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-25 23:19:48,641 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-12-25 23:19:48,641 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-12-25 23:19:49,249 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-25 23:19:49,249 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-25 23:19:49,250 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 9537 ms
+2023-12-25 23:19:49,250 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 9537 ms
+2023-12-25 23:19:49,727 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-12-25 23:19:49,727 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-12-25 23:19:49,944 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@65d9e72a'
+2023-12-25 23:19:49,944 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@65d9e72a'
+2023-12-25 23:19:49,949 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-12-25 23:19:49,949 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-12-25 23:19:57,009 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.insert
+2023-12-25 23:19:57,009 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.insert
+2023-12-25 23:19:57,027 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.delete
+2023-12-25 23:19:57,027 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.delete
+2023-12-25 23:19:57,036 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteByMap
+2023-12-25 23:19:57,036 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteByMap
+2023-12-25 23:19:57,114 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteById
+2023-12-25 23:19:57,114 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteById
+2023-12-25 23:19:57,119 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteBatchIds
+2023-12-25 23:19:57,119 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteBatchIds
+2023-12-25 23:19:57,136 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.update
+2023-12-25 23:19:57,136 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.update
+2023-12-25 23:19:57,146 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.updateById
+2023-12-25 23:19:57,146 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.updateById
+2023-12-25 23:19:57,149 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectById
+2023-12-25 23:19:57,149 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectById
+2023-12-25 23:19:57,155 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectBatchIds
+2023-12-25 23:19:57,155 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectBatchIds
+2023-12-25 23:19:57,162 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectByMap
+2023-12-25 23:19:57,162 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectByMap
+2023-12-25 23:19:57,171 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectOne
+2023-12-25 23:19:57,171 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectOne
+2023-12-25 23:19:57,182 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectCount
+2023-12-25 23:19:57,182 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectCount
+2023-12-25 23:19:57,191 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMaps
+2023-12-25 23:19:57,191 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMaps
+2023-12-25 23:19:57,197 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMapsPage
+2023-12-25 23:19:57,197 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMapsPage
+2023-12-25 23:19:57,206 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectObjs
+2023-12-25 23:19:57,206 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectObjs
+2023-12-25 23:19:57,212 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectList
+2023-12-25 23:19:57,212 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectList
+2023-12-25 23:19:57,217 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectPage
+2023-12-25 23:19:57,217 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectPage
+2023-12-25 23:20:03,083 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-12-25 23:20:03,083 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-12-25 23:20:03,186 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-12-25 23:20:03,186 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-12-25 23:20:03,187 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-12-25 23:20:03,187 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-12-25 23:20:03,203 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-12-25 23:20:03,203 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-12-25 23:20:03,203 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-12-25 23:20:03,203 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-12-25 23:20:03,250 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-12-25 23:20:03,250 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-12-25 23:20:03,255 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-12-25 23:20:03,255 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-12-25 23:20:03,257 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-12-25 23:20:03,257 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-12-25 23:20:03,259 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-12-25 23:20:03,259 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-12-25 23:20:03,264 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-12-25 23:20:03,264 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-12-25 23:20:03,264 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-12-25 23:20:03,264 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-12-25 23:20:03,266 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-12-25 23:20:03,266 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-12-25 23:20:03,266 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-12-25 23:20:03,266 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-12-25 23:20:03,267 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-12-25 23:20:03,267 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-12-25 23:20:03,269 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-12-25 23:20:03,269 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-12-25 23:20:03,273 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-12-25 23:20:03,273 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-12-25 23:20:03,274 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-12-25 23:20:03,274 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-12-25 23:20:03,275 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-12-25 23:20:03,275 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-12-25 23:20:03,275 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-12-25 23:20:03,275 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-12-25 23:20:03,276 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-12-25 23:20:03,276 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-12-25 23:20:03,276 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-12-25 23:20:03,276 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-12-25 23:20:03,480 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-25 23:20:03,480 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-25 23:20:09,004 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-12-25 23:20:09,004 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-12-25 23:20:13,059 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.insert
+2023-12-25 23:20:13,059 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.insert
+2023-12-25 23:20:13,064 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.delete
+2023-12-25 23:20:13,064 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.delete
+2023-12-25 23:20:13,068 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.deleteByMap
+2023-12-25 23:20:13,068 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.deleteByMap
+2023-12-25 23:20:13,071 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.deleteById
+2023-12-25 23:20:13,071 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.deleteById
+2023-12-25 23:20:13,074 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.deleteBatchIds
+2023-12-25 23:20:13,074 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.deleteBatchIds
+2023-12-25 23:20:13,076 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.update
+2023-12-25 23:20:13,076 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.update
+2023-12-25 23:20:13,079 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.updateById
+2023-12-25 23:20:13,079 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.updateById
+2023-12-25 23:20:13,080 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectById
+2023-12-25 23:20:13,080 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectById
+2023-12-25 23:20:13,084 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectBatchIds
+2023-12-25 23:20:13,084 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectBatchIds
+2023-12-25 23:20:13,088 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectByMap
+2023-12-25 23:20:13,088 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectByMap
+2023-12-25 23:20:13,092 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectOne
+2023-12-25 23:20:13,092 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectOne
+2023-12-25 23:20:13,096 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectCount
+2023-12-25 23:20:13,096 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectCount
+2023-12-25 23:20:13,098 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectMaps
+2023-12-25 23:20:13,098 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectMaps
+2023-12-25 23:20:13,102 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectMapsPage
+2023-12-25 23:20:13,102 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectMapsPage
+2023-12-25 23:20:13,107 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectObjs
+2023-12-25 23:20:13,107 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectObjs
+2023-12-25 23:20:13,110 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectList
+2023-12-25 23:20:13,110 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectList
+2023-12-25 23:20:13,114 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectPage
+2023-12-25 23:20:13,114 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectPage
+2023-12-25 23:20:13,141 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.insert
+2023-12-25 23:20:13,141 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.insert
+2023-12-25 23:20:13,145 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.delete
+2023-12-25 23:20:13,145 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.delete
+2023-12-25 23:20:13,148 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.deleteByMap
+2023-12-25 23:20:13,148 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.deleteByMap
+2023-12-25 23:20:13,152 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.deleteById
+2023-12-25 23:20:13,152 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.deleteById
+2023-12-25 23:20:13,156 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.deleteBatchIds
+2023-12-25 23:20:13,156 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.deleteBatchIds
+2023-12-25 23:20:13,160 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.update
+2023-12-25 23:20:13,160 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.update
+2023-12-25 23:20:13,166 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.updateById
+2023-12-25 23:20:13,166 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.updateById
+2023-12-25 23:20:13,167 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectById
+2023-12-25 23:20:13,167 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectById
+2023-12-25 23:20:13,171 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectBatchIds
+2023-12-25 23:20:13,171 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectBatchIds
+2023-12-25 23:20:13,176 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectByMap
+2023-12-25 23:20:13,176 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectByMap
+2023-12-25 23:20:13,182 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectOne
+2023-12-25 23:20:13,182 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectOne
+2023-12-25 23:20:13,203 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectCount
+2023-12-25 23:20:13,203 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectCount
+2023-12-25 23:20:13,207 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectMaps
+2023-12-25 23:20:13,207 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectMaps
+2023-12-25 23:20:13,211 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectMapsPage
+2023-12-25 23:20:13,211 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectMapsPage
+2023-12-25 23:20:13,215 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectObjs
+2023-12-25 23:20:13,215 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectObjs
+2023-12-25 23:20:13,218 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectList
+2023-12-25 23:20:13,218 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectList
+2023-12-25 23:20:13,220 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectPage
+2023-12-25 23:20:13,220 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectPage
+2023-12-25 23:20:13,246 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.insert
+2023-12-25 23:20:13,246 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.insert
+2023-12-25 23:20:13,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.delete
+2023-12-25 23:20:13,250 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.delete
+2023-12-25 23:20:13,253 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.deleteByMap
+2023-12-25 23:20:13,253 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.deleteByMap
+2023-12-25 23:20:13,255 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.deleteById
+2023-12-25 23:20:13,255 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.deleteById
+2023-12-25 23:20:13,257 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.deleteBatchIds
+2023-12-25 23:20:13,257 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.deleteBatchIds
+2023-12-25 23:20:13,262 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.update
+2023-12-25 23:20:13,262 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.update
+2023-12-25 23:20:13,265 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.updateById
+2023-12-25 23:20:13,265 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.updateById
+2023-12-25 23:20:13,266 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectById
+2023-12-25 23:20:13,266 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectById
+2023-12-25 23:20:13,269 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectBatchIds
+2023-12-25 23:20:13,269 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectBatchIds
+2023-12-25 23:20:13,273 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectByMap
+2023-12-25 23:20:13,273 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectByMap
+2023-12-25 23:20:13,278 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectOne
+2023-12-25 23:20:13,278 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectOne
+2023-12-25 23:20:13,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectCount
+2023-12-25 23:20:13,282 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectCount
+2023-12-25 23:20:13,286 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectMaps
+2023-12-25 23:20:13,286 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectMaps
+2023-12-25 23:20:13,291 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectMapsPage
+2023-12-25 23:20:13,291 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectMapsPage
+2023-12-25 23:20:13,295 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectObjs
+2023-12-25 23:20:13,295 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectObjs
+2023-12-25 23:20:13,298 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectList
+2023-12-25 23:20:13,298 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectList
+2023-12-25 23:20:13,301 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectPage
+2023-12-25 23:20:13,301 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectPage
+2023-12-25 23:20:13,327 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.insert
+2023-12-25 23:20:13,327 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.insert
+2023-12-25 23:20:13,331 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.delete
+2023-12-25 23:20:13,331 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.delete
+2023-12-25 23:20:13,335 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.deleteByMap
+2023-12-25 23:20:13,335 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.deleteByMap
+2023-12-25 23:20:13,339 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.deleteById
+2023-12-25 23:20:13,339 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.deleteById
+2023-12-25 23:20:13,342 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.deleteBatchIds
+2023-12-25 23:20:13,342 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.deleteBatchIds
+2023-12-25 23:20:13,347 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.update
+2023-12-25 23:20:13,347 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.update
+2023-12-25 23:20:13,352 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.updateById
+2023-12-25 23:20:13,352 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.updateById
+2023-12-25 23:20:13,353 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectById
+2023-12-25 23:20:13,353 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectById
+2023-12-25 23:20:13,357 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectBatchIds
+2023-12-25 23:20:13,357 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectBatchIds
+2023-12-25 23:20:13,359 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectByMap
+2023-12-25 23:20:13,359 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectByMap
+2023-12-25 23:20:13,362 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectOne
+2023-12-25 23:20:13,362 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectOne
+2023-12-25 23:20:13,366 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectCount
+2023-12-25 23:20:13,366 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectCount
+2023-12-25 23:20:13,371 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectMaps
+2023-12-25 23:20:13,371 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectMaps
+2023-12-25 23:20:13,374 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectMapsPage
+2023-12-25 23:20:13,374 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectMapsPage
+2023-12-25 23:20:13,379 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectObjs
+2023-12-25 23:20:13,379 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectObjs
+2023-12-25 23:20:13,385 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectList
+2023-12-25 23:20:13,385 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectList
+2023-12-25 23:20:13,388 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectPage
+2023-12-25 23:20:13,388 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectPage
+2023-12-25 23:20:13,618 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-12-25 23:20:13,618 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-12-25 23:20:13,620 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-12-25 23:20:13,620 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-12-25 23:20:13,621 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-12-25 23:20:13,621 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-12-25 23:20:13,634 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-12-25 23:20:13,634 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-12-25 23:20:13,637 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-12-25 23:20:13,637 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-12-25 23:20:13,649 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:20:13,649 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:20:13,676 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-12-25 23:20:13,676 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-12-25 23:20:13,682 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=63019&clusters=DEFAULT, body: {}
+2023-12-25 23:20:13,682 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=63019&clusters=DEFAULT, body: {}
+2023-12-25 23:20:14,053 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63050"]
+2023-12-25 23:20:14,053 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63050"]
+2023-12-25 23:20:14,129 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63050 (http) with context path '/media'
+2023-12-25 23:20:14,129 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63050 (http) with context path '/media'
+2023-12-25 23:20:14,142 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-12-25 23:20:14,142 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-12-25 23:20:14,144 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.101.1', port=63050, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-12-25 23:20:14,144 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.101.1', port=63050, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-12-25 23:20:14,148 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/ns/instance?app=unknown&groupName=xuecheng-plus-project&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=dev&port=63050&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.101.1&weight=1.0&ephemeral=true&serviceName=xuecheng-plus-project%40%40media-api, body: {}
+2023-12-25 23:20:14,148 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/ns/instance?app=unknown&groupName=xuecheng-plus-project&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=dev&port=63050&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.101.1&weight=1.0&ephemeral=true&serviceName=xuecheng-plus-project%40%40media-api, body: {}
+2023-12-25 23:20:14,360 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project media-api 192.168.101.1:63050 register finished
+2023-12-25 23:20:14,360 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project media-api 192.168.101.1:63050 register finished
+2023-12-25 23:20:15,060 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=63019&clusters=DEFAULT, body: {}
+2023-12-25 23:20:15,060 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=63019&clusters=DEFAULT, body: {}
+2023-12-25 23:20:15,189 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.101.1#63050#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.101.1","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-12-25 23:20:15,189 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.101.1#63050#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.101.1","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-12-25 23:20:15,190 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@76473da7 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@1a85e86e
+2023-12-25 23:20:15,190 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@76473da7 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@1a85e86e
+2023-12-25 23:20:15,209 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.101.1#63050#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.101.1","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-12-25 23:20:15,209 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.101.1#63050#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.101.1","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2023-12-25 23:20:15,448 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"hosts\":[{\"ip\":\"192.168.101.1\",\"port\":63050,\"valid\":true,\"healthy\":true,\"marked\":false,\"instanceId\":\"192.168.101.1#63050#DEFAULT#xuecheng-plus-project@@media-api\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"enabled\":true,\"weight\":1.0,\"clusterName\":\"DEFAULT\",\"serviceName\":\"xuecheng-plus-project@@media-api\",\"ephemeral\":true}],\"dom\":\"xuecheng-plus-project@@media-api\",\"name\":\"xuecheng-plus-project@@media-api\",\"cacheMillis\":10000,\"lastRefTime\":1703517667230,\"checksum\":\"5626e57dd975cd619c6a2d2afff18d24\",\"useSpecifiedURL\":false,\"clusters\":\"DEFAULT\",\"env\":\"\",\"metadata\":{}}","lastRefTime":10612996854074} from /192.168.101.65
+2023-12-25 23:20:15,448 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"hosts\":[{\"ip\":\"192.168.101.1\",\"port\":63050,\"valid\":true,\"healthy\":true,\"marked\":false,\"instanceId\":\"192.168.101.1#63050#DEFAULT#xuecheng-plus-project@@media-api\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"enabled\":true,\"weight\":1.0,\"clusterName\":\"DEFAULT\",\"serviceName\":\"xuecheng-plus-project@@media-api\",\"ephemeral\":true}],\"dom\":\"xuecheng-plus-project@@media-api\",\"name\":\"xuecheng-plus-project@@media-api\",\"cacheMillis\":10000,\"lastRefTime\":1703517667230,\"checksum\":\"5626e57dd975cd619c6a2d2afff18d24\",\"useSpecifiedURL\":false,\"clusters\":\"DEFAULT\",\"env\":\"\",\"metadata\":{}}","lastRefTime":10612996854074} from /192.168.101.65
+2023-12-25 23:20:18,904 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:20:18,904 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:20:19,165 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:20:19,165 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:20:19,188 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {beat={"port":63050,"ip":"192.168.101.1","weight":1.0,"serviceName":"xuecheng-plus-project@@media-api","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2023-12-25 23:20:19,188 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {beat={"port":63050,"ip":"192.168.101.1","weight":1.0,"serviceName":"xuecheng-plus-project@@media-api","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2023-12-25 23:20:21,530 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-12-25 23:20:21,530 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-12-25 23:20:21,570 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-12-25 23:20:21,570 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-12-25 23:20:21,665 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-12-25 23:20:21,665 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-12-25 23:20:22,287 INFO [main][StartupInfoLogger.java:61] - Started MediaApplication in 59.19 seconds (JVM running for 69.946)
+2023-12-25 23:20:22,287 INFO [main][StartupInfoLogger.java:61] - Started MediaApplication in 59.19 seconds (JVM running for 69.946)
+2023-12-25 23:20:22,297 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] swagger-dev.yaml+xuecheng-plus-common+dev
+2023-12-25 23:20:22,297 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] swagger-dev.yaml+xuecheng-plus-common+dev
+2023-12-25 23:20:22,299 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=swagger-dev.yaml, group=xuecheng-plus-common, cnt=1
+2023-12-25 23:20:22,299 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=swagger-dev.yaml, group=xuecheng-plus-common, cnt=1
+2023-12-25 23:20:22,300 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] media-api.yaml+xuecheng-plus-project+dev
+2023-12-25 23:20:22,300 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] media-api.yaml+xuecheng-plus-project+dev
+2023-12-25 23:20:22,300 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api.yaml, group=xuecheng-plus-project, cnt=1
+2023-12-25 23:20:22,300 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api.yaml, group=xuecheng-plus-project, cnt=1
+2023-12-25 23:20:22,301 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] media-api-dev.yaml+xuecheng-plus-project+dev
+2023-12-25 23:20:22,301 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] media-api-dev.yaml+xuecheng-plus-project+dev
+2023-12-25 23:20:22,301 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api-dev.yaml, group=xuecheng-plus-project, cnt=1
+2023-12-25 23:20:22,301 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api-dev.yaml, group=xuecheng-plus-project, cnt=1
+2023-12-25 23:20:22,303 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] media-service-dev.yaml+xuecheng-plus-project+dev
+2023-12-25 23:20:22,303 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] media-service-dev.yaml+xuecheng-plus-project+dev
+2023-12-25 23:20:22,303 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=media-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2023-12-25 23:20:22,303 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=media-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2023-12-25 23:20:22,304 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2023-12-25 23:20:22,304 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2023-12-25 23:20:22,305 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2023-12-25 23:20:22,305 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2023-12-25 23:20:22,305 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] media-api+xuecheng-plus-project+dev
+2023-12-25 23:20:22,305 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] media-api+xuecheng-plus-project+dev
+2023-12-25 23:20:22,305 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api, group=xuecheng-plus-project, cnt=1
+2023-12-25 23:20:22,305 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api, group=xuecheng-plus-project, cnt=1
+2023-12-25 23:20:22,312 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-service-dev.yamlxuecheng-plus-project7473a1104ab69e8b207abd428e2aa0cfdevswagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devmedia-api-dev.yamlxuecheng-plus-project7e41197fdbb4b6bd1194ae292af19ff8devmedia-apixuecheng-plus-projectdevmedia-api.yamlxuecheng-plus-projectdev, tenant=dev}
+2023-12-25 23:20:22,312 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-service-dev.yamlxuecheng-plus-project7473a1104ab69e8b207abd428e2aa0cfdevswagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devmedia-api-dev.yamlxuecheng-plus-project7e41197fdbb4b6bd1194ae292af19ff8devmedia-apixuecheng-plus-projectdevmedia-api.yamlxuecheng-plus-projectdev, tenant=dev}
+2023-12-25 23:20:22,313 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@6afc8283]
+2023-12-25 23:20:22,313 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@6afc8283]
+2023-12-25 23:20:22,342 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-service-dev.yamlxuecheng-plus-project7473a1104ab69e8b207abd428e2aa0cfdevswagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devmedia-api-dev.yamlxuecheng-plus-project7e41197fdbb4b6bd1194ae292af19ff8devmedia-apixuecheng-plus-projectdevmedia-api.yamlxuecheng-plus-projectdev, tenant=dev}
+2023-12-25 23:20:22,342 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-service-dev.yamlxuecheng-plus-project7473a1104ab69e8b207abd428e2aa0cfdevswagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devmedia-api-dev.yamlxuecheng-plus-project7e41197fdbb4b6bd1194ae292af19ff8devmedia-apixuecheng-plus-projectdevmedia-api.yamlxuecheng-plus-projectdev, tenant=dev}
+2023-12-25 23:20:22,343 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@6afc8283]
+2023-12-25 23:20:22,343 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@6afc8283]
+2023-12-25 23:20:23,921 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:20:23,921 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:20:24,288 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:20:24,288 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:20:24,289 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:20:24,289 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:20:25,229 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=63019&clusters=DEFAULT, body: {}
+2023-12-25 23:20:25,229 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=63019&clusters=DEFAULT, body: {}
+2023-12-25 23:20:28,924 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:20:28,924 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:20:29,323 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:20:29,323 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:20:29,324 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:20:29,324 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:20:33,928 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:20:33,928 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:20:34,344 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:20:34,344 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:20:34,345 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:20:34,345 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:20:35,271 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=63019&clusters=DEFAULT, body: {}
+2023-12-25 23:20:35,271 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=63019&clusters=DEFAULT, body: {}
+2023-12-25 23:20:38,940 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:20:38,940 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:20:39,354 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:20:39,354 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:20:39,355 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:20:39,355 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:20:43,653 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-12-25 23:20:43,653 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-12-25 23:20:43,955 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:20:43,955 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:20:44,382 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:20:44,382 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:20:44,383 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:20:44,383 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:20:45,299 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=63019&clusters=DEFAULT, body: {}
+2023-12-25 23:20:45,299 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=63019&clusters=DEFAULT, body: {}
+2023-12-25 23:20:48,963 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:20:48,963 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:20:49,420 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:20:49,420 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:20:49,421 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:20:49,421 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:20:52,062 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-service-dev.yamlxuecheng-plus-project7473a1104ab69e8b207abd428e2aa0cfdevswagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devmedia-api-dev.yamlxuecheng-plus-project7e41197fdbb4b6bd1194ae292af19ff8devmedia-apixuecheng-plus-projectdevmedia-api.yamlxuecheng-plus-projectdev, tenant=dev}
+2023-12-25 23:20:52,062 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@6afc8283]
+2023-12-25 23:20:52,062 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-service-dev.yamlxuecheng-plus-project7473a1104ab69e8b207abd428e2aa0cfdevswagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devmedia-api-dev.yamlxuecheng-plus-project7e41197fdbb4b6bd1194ae292af19ff8devmedia-apixuecheng-plus-projectdevmedia-api.yamlxuecheng-plus-projectdev, tenant=dev}
+2023-12-25 23:20:52,062 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@6afc8283]
+2023-12-25 23:20:53,972 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:20:53,972 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:20:54,450 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:20:54,450 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:20:54,451 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:20:54,451 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:20:55,325 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=63019&clusters=DEFAULT, body: {}
+2023-12-25 23:20:55,325 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=63019&clusters=DEFAULT, body: {}
+2023-12-25 23:20:58,990 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:20:58,990 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:20:59,475 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:20:59,475 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:20:59,476 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:20:59,476 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:21:04,005 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:21:04,005 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:21:04,527 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:21:04,527 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:21:04,527 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:21:04,527 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:21:05,371 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=63019&clusters=DEFAULT, body: {}
+2023-12-25 23:21:05,371 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=63019&clusters=DEFAULT, body: {}
+2023-12-25 23:21:09,019 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:21:09,019 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:21:09,552 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:21:09,552 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:21:09,553 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:21:09,553 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:21:13,669 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-12-25 23:21:13,669 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-12-25 23:21:14,020 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:21:14,020 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:21:14,570 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:21:14,570 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:21:14,571 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:21:14,571 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:21:15,400 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=63019&clusters=DEFAULT, body: {}
+2023-12-25 23:21:15,400 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=63019&clusters=DEFAULT, body: {}
+2023-12-25 23:21:19,031 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:21:19,031 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:21:19,610 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:21:19,610 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:21:19,611 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:21:19,611 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:21:21,584 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-service-dev.yamlxuecheng-plus-project7473a1104ab69e8b207abd428e2aa0cfdevswagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devmedia-api-dev.yamlxuecheng-plus-project7e41197fdbb4b6bd1194ae292af19ff8devmedia-apixuecheng-plus-projectdevmedia-api.yamlxuecheng-plus-projectdev, tenant=dev}
+2023-12-25 23:21:21,584 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-service-dev.yamlxuecheng-plus-project7473a1104ab69e8b207abd428e2aa0cfdevswagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devmedia-api-dev.yamlxuecheng-plus-project7e41197fdbb4b6bd1194ae292af19ff8devmedia-apixuecheng-plus-projectdevmedia-api.yamlxuecheng-plus-projectdev, tenant=dev}
+2023-12-25 23:21:21,584 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@6afc8283]
+2023-12-25 23:21:21,584 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@6afc8283]
+2023-12-25 23:21:24,044 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:21:24,044 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:21:24,644 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:21:24,644 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:21:24,646 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:21:24,646 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:21:25,456 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=63019&clusters=DEFAULT, body: {}
+2023-12-25 23:21:25,456 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=63019&clusters=DEFAULT, body: {}
+2023-12-25 23:21:29,047 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:21:29,047 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:21:29,674 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:21:29,674 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:21:29,675 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:21:29,675 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:21:34,055 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:21:34,055 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:21:34,706 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:21:34,706 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:21:34,707 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:21:34,707 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:21:35,491 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=63019&clusters=DEFAULT, body: {}
+2023-12-25 23:21:35,491 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=63019&clusters=DEFAULT, body: {}
+2023-12-25 23:21:39,057 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:21:39,057 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:21:39,631 WARN [Thread-12][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-25 23:21:39,631 WARN [Thread-12][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-25 23:21:39,631 WARN [Thread-83][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-25 23:21:39,631 WARN [Thread-83][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-25 23:21:39,631 WARN [Thread-83][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-25 23:21:39,631 WARN [Thread-83][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-25 23:21:39,633 WARN [Thread-12][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-25 23:21:39,633 WARN [Thread-12][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-25 23:21:39,764 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:21:39,764 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:21:39,765 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:22:03,754 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-12-25 23:22:03,754 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2023-12-25 23:22:05,649 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-12-25 23:22:05,649 DEBUG [main][LogFactory.java:105] - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2023-12-25 23:22:05,804 INFO [main][GenericScope.java:295] - BeanFactory id=412b7a00-cd6b-37bc-91b3-bdc8aee69992
+2023-12-25 23:22:05,804 INFO [main][GenericScope.java:295] - BeanFactory id=412b7a00-cd6b-37bc-91b3-bdc8aee69992
+2023-12-25 23:22:06,516 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2023-12-25 23:22:06,516 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2023-12-25 23:22:06,546 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2023-12-25 23:22:06,546 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2023-12-25 23:22:06,547 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-25 23:22:06,547 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2023-12-25 23:22:06,548 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-12-25 23:22:06,548 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2023-12-25 23:22:06,812 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-25 23:22:06,812 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2023-12-25 23:22:06,812 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 3027 ms
+2023-12-25 23:22:06,812 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 3027 ms
+2023-12-25 23:22:10,793 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-12-25 23:22:10,793 DEBUG [main][HikariConfig.java:946] - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader sun.misc.Launcher$AppClassLoader@18b4aac2
+2023-12-25 23:22:11,132 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@5d5d3a5c'
+2023-12-25 23:22:11,132 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@5d5d3a5c'
+2023-12-25 23:22:11,142 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-12-25 23:22:11,142 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
+2023-12-25 23:22:17,919 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.insert
+2023-12-25 23:22:17,919 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.insert
+2023-12-25 23:22:17,980 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.delete
+2023-12-25 23:22:17,980 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.delete
+2023-12-25 23:22:18,002 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteByMap
+2023-12-25 23:22:18,002 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteByMap
+2023-12-25 23:22:18,365 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteById
+2023-12-25 23:22:18,365 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteById
+2023-12-25 23:22:18,371 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteBatchIds
+2023-12-25 23:22:18,371 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.deleteBatchIds
+2023-12-25 23:22:18,400 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.update
+2023-12-25 23:22:18,400 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.update
+2023-12-25 23:22:18,409 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.updateById
+2023-12-25 23:22:18,409 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.updateById
+2023-12-25 23:22:18,417 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectById
+2023-12-25 23:22:18,417 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectById
+2023-12-25 23:22:18,422 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectBatchIds
+2023-12-25 23:22:18,422 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectBatchIds
+2023-12-25 23:22:18,429 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectByMap
+2023-12-25 23:22:18,429 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectByMap
+2023-12-25 23:22:18,438 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectOne
+2023-12-25 23:22:18,438 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectOne
+2023-12-25 23:22:18,449 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectCount
+2023-12-25 23:22:18,449 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectCount
+2023-12-25 23:22:18,457 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMaps
+2023-12-25 23:22:18,457 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMaps
+2023-12-25 23:22:18,465 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMapsPage
+2023-12-25 23:22:18,465 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectMapsPage
+2023-12-25 23:22:18,477 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectObjs
+2023-12-25 23:22:18,477 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectObjs
+2023-12-25 23:22:18,487 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectList
+2023-12-25 23:22:18,487 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectList
+2023-12-25 23:22:18,496 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectPage
+2023-12-25 23:22:18,496 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaFilesMapper.selectPage
+2023-12-25 23:22:24,269 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-12-25 23:22:24,269 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-12-25 23:22:24,465 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-12-25 23:22:24,465 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-12-25 23:22:24,466 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-12-25 23:22:24,466 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-12-25 23:22:24,477 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-12-25 23:22:24,477 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2023-12-25 23:22:24,477 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-12-25 23:22:24,477 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2023-12-25 23:22:24,520 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-12-25 23:22:24,520 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2023-12-25 23:22:24,527 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-12-25 23:22:24,527 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2023-12-25 23:22:24,530 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-12-25 23:22:24,530 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2023-12-25 23:22:24,531 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-12-25 23:22:24,531 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2023-12-25 23:22:24,536 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-12-25 23:22:24,536 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2023-12-25 23:22:24,537 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-12-25 23:22:24,537 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2023-12-25 23:22:24,539 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-12-25 23:22:24,539 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2023-12-25 23:22:24,540 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-12-25 23:22:24,540 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2023-12-25 23:22:24,542 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-12-25 23:22:24,542 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2023-12-25 23:22:24,545 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-12-25 23:22:24,545 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2023-12-25 23:22:24,549 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-12-25 23:22:24,549 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2023-12-25 23:22:24,550 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-12-25 23:22:24,550 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2023-12-25 23:22:24,551 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-12-25 23:22:24,551 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2023-12-25 23:22:24,551 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-12-25 23:22:24,551 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2023-12-25 23:22:24,552 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-12-25 23:22:24,552 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2023-12-25 23:22:24,553 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-12-25 23:22:24,553 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2023-12-25 23:22:24,731 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-25 23:22:24,731 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2023-12-25 23:22:30,035 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-12-25 23:22:30,035 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2023-12-25 23:22:32,934 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.insert
+2023-12-25 23:22:32,934 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.insert
+2023-12-25 23:22:32,936 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.delete
+2023-12-25 23:22:32,936 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.delete
+2023-12-25 23:22:32,940 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.deleteByMap
+2023-12-25 23:22:32,940 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.deleteByMap
+2023-12-25 23:22:32,943 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.deleteById
+2023-12-25 23:22:32,943 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.deleteById
+2023-12-25 23:22:32,945 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.deleteBatchIds
+2023-12-25 23:22:32,945 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.deleteBatchIds
+2023-12-25 23:22:32,949 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.update
+2023-12-25 23:22:32,949 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.update
+2023-12-25 23:22:32,951 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.updateById
+2023-12-25 23:22:32,951 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.updateById
+2023-12-25 23:22:32,952 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectById
+2023-12-25 23:22:32,952 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectById
+2023-12-25 23:22:32,955 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectBatchIds
+2023-12-25 23:22:32,955 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectBatchIds
+2023-12-25 23:22:32,958 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectByMap
+2023-12-25 23:22:32,958 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectByMap
+2023-12-25 23:22:32,962 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectOne
+2023-12-25 23:22:32,962 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectOne
+2023-12-25 23:22:32,965 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectCount
+2023-12-25 23:22:32,965 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectCount
+2023-12-25 23:22:32,968 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectMaps
+2023-12-25 23:22:32,968 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectMaps
+2023-12-25 23:22:32,970 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectMapsPage
+2023-12-25 23:22:32,970 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectMapsPage
+2023-12-25 23:22:32,973 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectObjs
+2023-12-25 23:22:32,973 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectObjs
+2023-12-25 23:22:32,976 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectList
+2023-12-25 23:22:32,976 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectList
+2023-12-25 23:22:32,978 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectPage
+2023-12-25 23:22:32,978 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessHistoryMapper.selectPage
+2023-12-25 23:22:32,995 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.insert
+2023-12-25 23:22:32,995 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.insert
+2023-12-25 23:22:32,999 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.delete
+2023-12-25 23:22:32,999 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.delete
+2023-12-25 23:22:33,002 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.deleteByMap
+2023-12-25 23:22:33,002 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.deleteByMap
+2023-12-25 23:22:33,005 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.deleteById
+2023-12-25 23:22:33,005 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.deleteById
+2023-12-25 23:22:33,007 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.deleteBatchIds
+2023-12-25 23:22:33,007 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.deleteBatchIds
+2023-12-25 23:22:33,010 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.update
+2023-12-25 23:22:33,010 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.update
+2023-12-25 23:22:33,013 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.updateById
+2023-12-25 23:22:33,013 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.updateById
+2023-12-25 23:22:33,014 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectById
+2023-12-25 23:22:33,014 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectById
+2023-12-25 23:22:33,016 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectBatchIds
+2023-12-25 23:22:33,016 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectBatchIds
+2023-12-25 23:22:33,018 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectByMap
+2023-12-25 23:22:33,018 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectByMap
+2023-12-25 23:22:33,021 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectOne
+2023-12-25 23:22:33,021 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectOne
+2023-12-25 23:22:33,023 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectCount
+2023-12-25 23:22:33,023 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectCount
+2023-12-25 23:22:33,025 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectMaps
+2023-12-25 23:22:33,025 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectMaps
+2023-12-25 23:22:33,027 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectMapsPage
+2023-12-25 23:22:33,027 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectMapsPage
+2023-12-25 23:22:33,030 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectObjs
+2023-12-25 23:22:33,030 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectObjs
+2023-12-25 23:22:33,032 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectList
+2023-12-25 23:22:33,032 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectList
+2023-12-25 23:22:33,034 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectPage
+2023-12-25 23:22:33,034 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MediaProcessMapper.selectPage
+2023-12-25 23:22:33,049 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.insert
+2023-12-25 23:22:33,049 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.insert
+2023-12-25 23:22:33,052 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.delete
+2023-12-25 23:22:33,052 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.delete
+2023-12-25 23:22:33,054 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.deleteByMap
+2023-12-25 23:22:33,054 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.deleteByMap
+2023-12-25 23:22:33,057 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.deleteById
+2023-12-25 23:22:33,057 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.deleteById
+2023-12-25 23:22:33,059 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.deleteBatchIds
+2023-12-25 23:22:33,059 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.deleteBatchIds
+2023-12-25 23:22:33,062 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.update
+2023-12-25 23:22:33,062 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.update
+2023-12-25 23:22:33,066 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.updateById
+2023-12-25 23:22:33,066 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.updateById
+2023-12-25 23:22:33,067 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectById
+2023-12-25 23:22:33,067 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectById
+2023-12-25 23:22:33,069 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectBatchIds
+2023-12-25 23:22:33,069 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectBatchIds
+2023-12-25 23:22:33,071 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectByMap
+2023-12-25 23:22:33,071 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectByMap
+2023-12-25 23:22:33,074 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectOne
+2023-12-25 23:22:33,074 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectOne
+2023-12-25 23:22:33,077 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectCount
+2023-12-25 23:22:33,077 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectCount
+2023-12-25 23:22:33,080 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectMaps
+2023-12-25 23:22:33,080 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectMaps
+2023-12-25 23:22:33,082 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectMapsPage
+2023-12-25 23:22:33,082 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectMapsPage
+2023-12-25 23:22:33,085 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectObjs
+2023-12-25 23:22:33,085 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectObjs
+2023-12-25 23:22:33,088 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectList
+2023-12-25 23:22:33,088 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectList
+2023-12-25 23:22:33,090 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectPage
+2023-12-25 23:22:33,090 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageHistoryMapper.selectPage
+2023-12-25 23:22:33,105 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.insert
+2023-12-25 23:22:33,105 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.insert
+2023-12-25 23:22:33,107 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.delete
+2023-12-25 23:22:33,107 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.delete
+2023-12-25 23:22:33,111 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.deleteByMap
+2023-12-25 23:22:33,111 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.deleteByMap
+2023-12-25 23:22:33,113 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.deleteById
+2023-12-25 23:22:33,113 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.deleteById
+2023-12-25 23:22:33,115 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.deleteBatchIds
+2023-12-25 23:22:33,115 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.deleteBatchIds
+2023-12-25 23:22:33,118 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.update
+2023-12-25 23:22:33,118 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.update
+2023-12-25 23:22:33,119 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.updateById
+2023-12-25 23:22:33,119 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.updateById
+2023-12-25 23:22:33,120 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectById
+2023-12-25 23:22:33,120 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectById
+2023-12-25 23:22:33,122 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectBatchIds
+2023-12-25 23:22:33,122 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectBatchIds
+2023-12-25 23:22:33,124 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectByMap
+2023-12-25 23:22:33,124 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectByMap
+2023-12-25 23:22:33,127 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectOne
+2023-12-25 23:22:33,127 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectOne
+2023-12-25 23:22:33,130 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectCount
+2023-12-25 23:22:33,130 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectCount
+2023-12-25 23:22:33,133 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectMaps
+2023-12-25 23:22:33,133 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectMaps
+2023-12-25 23:22:33,135 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectMapsPage
+2023-12-25 23:22:33,135 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectMapsPage
+2023-12-25 23:22:33,136 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectObjs
+2023-12-25 23:22:33,136 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectObjs
+2023-12-25 23:22:33,140 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectList
+2023-12-25 23:22:33,140 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectList
+2023-12-25 23:22:33,144 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectPage
+2023-12-25 23:22:33,144 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.media.mapper.MqMessageMapper.selectPage
+2023-12-25 23:22:33,286 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-12-25 23:22:33,286 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2023-12-25 23:22:33,287 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-12-25 23:22:33,287 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2023-12-25 23:22:33,288 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-12-25 23:22:33,288 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2023-12-25 23:22:33,295 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-12-25 23:22:33,295 DEBUG [main][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-12-25 23:22:33,297 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-12-25 23:22:33,297 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [192.168.101.65:8848]
+2023-12-25 23:22:33,304 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:22:33,304 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:22:33,320 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-12-25 23:22:33,320 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2023-12-25 23:22:33,325 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=50388&clusters=DEFAULT, body: {}
+2023-12-25 23:22:33,325 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=50388&clusters=DEFAULT, body: {}
+2023-12-25 23:22:33,470 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63050"]
+2023-12-25 23:22:33,470 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63050"]
+2023-12-25 23:22:33,521 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63050 (http) with context path '/media'
+2023-12-25 23:22:33,521 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63050 (http) with context path '/media'
+2023-12-25 23:22:33,530 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-12-25 23:22:33,530 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2023-12-25 23:22:33,533 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.101.1', port=63050, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-12-25 23:22:33,533 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service xuecheng-plus-project@@media-api with instance: Instance{instanceId='null', ip='192.168.101.1', port=63050, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-12-25 23:22:33,535 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/ns/instance?app=unknown&groupName=xuecheng-plus-project&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=dev&port=63050&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.101.1&weight=1.0&ephemeral=true&serviceName=xuecheng-plus-project%40%40media-api, body: {}
+2023-12-25 23:22:33,535 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/ns/instance?app=unknown&groupName=xuecheng-plus-project&metadata=%7B%22preserved.register.source%22%3A%22SPRING_CLOUD%22%7D&namespaceId=dev&port=63050&enable=true&healthy=true&clusterName=DEFAULT&ip=192.168.101.1&weight=1.0&ephemeral=true&serviceName=xuecheng-plus-project%40%40media-api, body: {}
+2023-12-25 23:22:33,547 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project media-api 192.168.101.1:63050 register finished
+2023-12-25 23:22:33,547 INFO [main][NacosServiceRegistry.java:75] - nacos registry, xuecheng-plus-project media-api 192.168.101.1:63050 register finished
+2023-12-25 23:22:34,475 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=50388&clusters=DEFAULT, body: {}
+2023-12-25 23:22:34,475 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=50388&clusters=DEFAULT, body: {}
+2023-12-25 23:22:34,523 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.101.1#63050#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.101.1","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-12-25 23:22:34,523 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.101.1#63050#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.101.1","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-12-25 23:22:34,524 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@3ad5f8 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@113c4ad6
+2023-12-25 23:22:34,524 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@3ad5f8 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@113c4ad6
+2023-12-25 23:22:34,533 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.101.1#63050#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.101.1","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-12-25 23:22:34,533 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: xuecheng-plus-project@@media-api@@DEFAULT -> [{"instanceId":"192.168.101.1#63050#DEFAULT#xuecheng-plus-project@@media-api","ip":"192.168.101.1","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"xuecheng-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2023-12-25 23:22:34,556 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"hosts\":[{\"ip\":\"192.168.101.1\",\"port\":63050,\"valid\":true,\"healthy\":true,\"marked\":false,\"instanceId\":\"192.168.101.1#63050#DEFAULT#xuecheng-plus-project@@media-api\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"enabled\":true,\"weight\":1.0,\"clusterName\":\"DEFAULT\",\"serviceName\":\"xuecheng-plus-project@@media-api\",\"ephemeral\":true}],\"dom\":\"xuecheng-plus-project@@media-api\",\"name\":\"xuecheng-plus-project@@media-api\",\"cacheMillis\":10000,\"lastRefTime\":1703517806372,\"checksum\":\"5626e57dd975cd619c6a2d2afff18d24\",\"useSpecifiedURL\":false,\"clusters\":\"DEFAULT\",\"env\":\"\",\"metadata\":{}}","lastRefTime":10752140657533} from /192.168.101.65
+2023-12-25 23:22:34,556 INFO [com.alibaba.nacos.naming.push.receiver][PushReceiver.java:97] - received push data: {"type":"dom","data":"{\"hosts\":[{\"ip\":\"192.168.101.1\",\"port\":63050,\"valid\":true,\"healthy\":true,\"marked\":false,\"instanceId\":\"192.168.101.1#63050#DEFAULT#xuecheng-plus-project@@media-api\",\"metadata\":{\"preserved.register.source\":\"SPRING_CLOUD\"},\"enabled\":true,\"weight\":1.0,\"clusterName\":\"DEFAULT\",\"serviceName\":\"xuecheng-plus-project@@media-api\",\"ephemeral\":true}],\"dom\":\"xuecheng-plus-project@@media-api\",\"name\":\"xuecheng-plus-project@@media-api\",\"cacheMillis\":10000,\"lastRefTime\":1703517806372,\"checksum\":\"5626e57dd975cd619c6a2d2afff18d24\",\"useSpecifiedURL\":false,\"clusters\":\"DEFAULT\",\"env\":\"\",\"metadata\":{}}","lastRefTime":10752140657533} from /192.168.101.65
+2023-12-25 23:22:36,693 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-12-25 23:22:36,693 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2023-12-25 23:22:36,718 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-12-25 23:22:36,718 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2023-12-25 23:22:36,813 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-12-25 23:22:36,813 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2023-12-25 23:22:37,357 INFO [main][StartupInfoLogger.java:61] - Started MediaApplication in 42.313 seconds (JVM running for 48.928)
+2023-12-25 23:22:37,357 INFO [main][StartupInfoLogger.java:61] - Started MediaApplication in 42.313 seconds (JVM running for 48.928)
+2023-12-25 23:22:37,372 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] swagger-dev.yaml+xuecheng-plus-common+dev
+2023-12-25 23:22:37,372 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] swagger-dev.yaml+xuecheng-plus-common+dev
+2023-12-25 23:22:37,375 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=swagger-dev.yaml, group=xuecheng-plus-common, cnt=1
+2023-12-25 23:22:37,375 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=swagger-dev.yaml, group=xuecheng-plus-common, cnt=1
+2023-12-25 23:22:37,376 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] media-api.yaml+xuecheng-plus-project+dev
+2023-12-25 23:22:37,376 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] media-api.yaml+xuecheng-plus-project+dev
+2023-12-25 23:22:37,377 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api.yaml, group=xuecheng-plus-project, cnt=1
+2023-12-25 23:22:37,377 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api.yaml, group=xuecheng-plus-project, cnt=1
+2023-12-25 23:22:37,379 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] media-api-dev.yaml+xuecheng-plus-project+dev
+2023-12-25 23:22:37,379 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] media-api-dev.yaml+xuecheng-plus-project+dev
+2023-12-25 23:22:37,380 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api-dev.yaml, group=xuecheng-plus-project, cnt=1
+2023-12-25 23:22:37,380 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api-dev.yaml, group=xuecheng-plus-project, cnt=1
+2023-12-25 23:22:37,382 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] media-service-dev.yaml+xuecheng-plus-project+dev
+2023-12-25 23:22:37,382 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] media-service-dev.yaml+xuecheng-plus-project+dev
+2023-12-25 23:22:37,382 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=media-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2023-12-25 23:22:37,382 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=media-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2023-12-25 23:22:37,384 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2023-12-25 23:22:37,384 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2023-12-25 23:22:37,384 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2023-12-25 23:22:37,384 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2023-12-25 23:22:37,385 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] media-api+xuecheng-plus-project+dev
+2023-12-25 23:22:37,385 INFO [main][ClientWorker.java:169] - [fixed-192.168.101.65_8848-dev] [subscribe] media-api+xuecheng-plus-project+dev
+2023-12-25 23:22:37,386 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api, group=xuecheng-plus-project, cnt=1
+2023-12-25 23:22:37,386 INFO [main][CacheData.java:92] - [fixed-192.168.101.65_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api, group=xuecheng-plus-project, cnt=1
+2023-12-25 23:22:37,387 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-service-dev.yamlxuecheng-plus-project7473a1104ab69e8b207abd428e2aa0cfdevswagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devmedia-api-dev.yamlxuecheng-plus-project7e41197fdbb4b6bd1194ae292af19ff8devmedia-apixuecheng-plus-projectdevmedia-api.yamlxuecheng-plus-projectdev, tenant=dev}
+2023-12-25 23:22:37,387 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-service-dev.yamlxuecheng-plus-project7473a1104ab69e8b207abd428e2aa0cfdevswagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devmedia-api-dev.yamlxuecheng-plus-project7e41197fdbb4b6bd1194ae292af19ff8devmedia-apixuecheng-plus-projectdevmedia-api.yamlxuecheng-plus-projectdev, tenant=dev}
+2023-12-25 23:22:37,389 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@ddfd982]
+2023-12-25 23:22:37,389 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@ddfd982]
+2023-12-25 23:22:37,404 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-service-dev.yamlxuecheng-plus-project7473a1104ab69e8b207abd428e2aa0cfdevswagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devmedia-api-dev.yamlxuecheng-plus-project7e41197fdbb4b6bd1194ae292af19ff8devmedia-apixuecheng-plus-projectdevmedia-api.yamlxuecheng-plus-projectdev, tenant=dev}
+2023-12-25 23:22:37,404 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://192.168.101.65:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=media-service-dev.yamlxuecheng-plus-project7473a1104ab69e8b207abd428e2aa0cfdevswagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devmedia-api-dev.yamlxuecheng-plus-project7e41197fdbb4b6bd1194ae292af19ff8devmedia-apixuecheng-plus-projectdevmedia-api.yamlxuecheng-plus-projectdev, tenant=dev}
+2023-12-25 23:22:37,404 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@ddfd982]
+2023-12-25 23:22:37,404 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@ddfd982]
+2023-12-25 23:22:38,305 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:22:38,305 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:22:38,536 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:22:38,536 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:22:38,539 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {beat={"port":63050,"ip":"192.168.101.1","weight":1.0,"serviceName":"xuecheng-plus-project@@media-api","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2023-12-25 23:22:38,539 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {beat={"port":63050,"ip":"192.168.101.1","weight":1.0,"serviceName":"xuecheng-plus-project@@media-api","cluster":"DEFAULT","metadata":{"preserved.register.source":"SPRING_CLOUD"},"scheduled":false,"period":5000,"stopped":false}}
+2023-12-25 23:22:43,322 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:22:43,322 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:22:43,583 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:22:43,583 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:22:43,584 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:22:43,584 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:22:44,537 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=50388&clusters=DEFAULT, body: {}
+2023-12-25 23:22:44,537 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=50388&clusters=DEFAULT, body: {}
+2023-12-25 23:22:48,335 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:22:48,335 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:22:48,613 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:22:48,613 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:22:48,613 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:22:48,613 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:22:53,339 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:22:53,339 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2023-12-25 23:22:53,632 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:22:53,632 DEBUG [com.alibaba.nacos.naming.beat.sender][NamingProxy.java:421] - [BEAT] dev sending beat to server: BeatInfo{port=63050, ip='192.168.101.1', weight=1.0, serviceName='xuecheng-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false}
+2023-12-25 23:22:53,632 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:22:53,632 DEBUG [com.alibaba.nacos.naming.beat.sender][NacosRestTemplate.java:476] - HTTP method: PUT, url: http://192.168.101.65:8848/nacos/v1/ns/instance/beat?app=unknown&serviceName=xuecheng-plus-project%40%40media-api&namespaceId=dev&port=63050&clusterName=DEFAULT&ip=192.168.101.1, body: {}
+2023-12-25 23:22:54,566 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=50388&clusters=DEFAULT, body: {}
+2023-12-25 23:22:54,566 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://192.168.101.65:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=192.168.101.1&serviceName=xuecheng-plus-project%40%40media-api&udpPort=50388&clusters=DEFAULT, body: {}
+2023-12-25 23:22:56,829 WARN [Thread-58][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-25 23:22:56,829 WARN [Thread-58][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2023-12-25 23:22:56,829 WARN [Thread-58][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-25 23:22:56,829 WARN [Thread-58][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2023-12-25 23:22:56,830 WARN [Thread-9][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-25 23:22:56,830 WARN [Thread-9][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2023-12-25 23:22:56,831 WARN [Thread-9][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2023-12-25 23:22:56,831 WARN [Thread-9][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
