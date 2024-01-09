@@ -9,10 +9,12 @@ import com.xuecheng.base.model.PageParams;
 import com.xuecheng.base.model.PageResult;
 import com.xuecheng.base.model.RestResponse;
 import com.xuecheng.media.mapper.MediaFilesMapper;
+import com.xuecheng.media.mapper.MediaProcessMapper;
 import com.xuecheng.media.model.dto.QueryMediaParamsDto;
 import com.xuecheng.media.model.dto.UploadFileParamsDto;
 import com.xuecheng.media.model.dto.UploadFileResultDto;
 import com.xuecheng.media.model.po.MediaFiles;
+import com.xuecheng.media.model.po.MediaProcess;
 import com.xuecheng.media.service.MediaFileService;
 import io.minio.*;
 import io.minio.messages.DeleteError;
@@ -45,6 +47,9 @@ public class MediaFileServiceImpl implements MediaFileService {
 
     @Autowired
     private MinioClient minioClient;
+
+    @Autowired
+    MediaProcessMapper mediaProcessMapper;
 
     /**
      * 代理对象
@@ -152,9 +157,35 @@ public class MediaFileServiceImpl implements MediaFileService {
             int insert = mediaFilesMapper.insert(mediaFiles);
             if (insert <= 0) {
                 log.debug("向数据库保存文件失败bucket:{},objectName:{}", bucket, objectName);
+                return null;
             }
         }
+        //TODO 记录待处理任务
+        this.addWaitingTask(mediaFiles);
         return mediaFiles;
+    }
+
+    /**
+     * 添加待处理任务
+     *
+     * @param mediaFiles 媒资文件信息，是media_files表的实体类
+     */
+    private void addWaitingTask(MediaFiles mediaFiles) {
+        //必须要判断一下，通过mimeType判断文件类型一定是avi视频文件才会添加到待处理任务中，其他的问题并不会
+        //文件名称
+        String filename = mediaFiles.getFilename();
+        //通过文件的扩展名获取mimeType
+        String mimeType = getMimeType(filename.substring(filename.lastIndexOf(".")));
+        if (mimeType.equals("video/x-msvideo")) {
+            //说明文件是avi文件，需要写入待处理任务表
+            MediaProcess mediaProcess = new MediaProcess();
+            BeanUtils.copyProperties(mediaFiles,mediaProcess);
+            mediaProcess.setStatus("1");//未处理
+            mediaProcess.setFailCount(0);//失败次数默认为0
+            mediaProcess.setUrl(null);
+            //向mediaProcess插入记录
+            mediaProcessMapper.insert(mediaProcess);
+        }
     }
 
     /**
@@ -351,7 +382,7 @@ public class MediaFileServiceImpl implements MediaFileService {
         //TODO 0.如果已经有了合并分块后对应的文件的话，就不用再合并了
         //判断Minio系统中是否有已经有合并的文件了，如果有的话没有分块所在路径也无所谓
         RestResponse<Boolean> booleanRestResponse = this.checkFile(fileMd5);
-        if (booleanRestResponse.getResult()){
+        if (booleanRestResponse.getResult()) {
             //getResult()返回值是true的话，表示文件已经存在，不需要合并了
             return RestResponse.success(true);
         }
@@ -419,6 +450,10 @@ public class MediaFileServiceImpl implements MediaFileService {
         //5.1获取分块文件路径
         //this.getChunkFileFolderPath(fileMd5);
         this.clearChunkFiles(chunkFileFolderPath, chunkTotal);
+
+
+        //TODO 6.向数据库中记录待处理任务
+
 
         return RestResponse.success(true);
     }

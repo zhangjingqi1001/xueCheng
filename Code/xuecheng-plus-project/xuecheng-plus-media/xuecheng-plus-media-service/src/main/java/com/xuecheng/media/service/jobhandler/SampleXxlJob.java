@@ -55,4 +55,19 @@ public class SampleXxlJob {
         //任务执行逻辑....
     }
 
+    /**
+     * 2、分片广播任务
+     */
+    @XxlJob("shardingJobHandler")
+    public void shardingJobHandler() throws Exception {
+
+        // 分片参数
+        int shardIndex = XxlJobHelper.getShardIndex();//执行器的序号，从0开始
+        int shardTotal = XxlJobHelper.getShardTotal();//执行器总数
+
+        //只要有了上面两个参数，我们就可以人为确定我们执行器执行哪一部分
+        System.out.println("shardIndex:"+shardIndex);
+        System.out.println("shardTotal:"+shardTotal);
+    }
+
 }
