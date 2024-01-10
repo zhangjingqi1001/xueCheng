@@ -196,7 +196,7 @@ public class MediaFileServiceImpl implements MediaFileService {
      * @param objectName    上传到MinIo系统中时的文件名称
      * @param mimeType      上传的文件类型
      */
-    private boolean addMediaFilesToMinIO(String localFilePath, String bucket, String objectName, String mimeType) {
+    public boolean addMediaFilesToMinIO(String localFilePath, String bucket, String objectName, String mimeType) {
         try {
             UploadObjectArgs uploadObjectArgs = UploadObjectArgs.builder()
                     //桶，也就是目录
@@ -453,8 +453,6 @@ public class MediaFileServiceImpl implements MediaFileService {
 
 
         //TODO 6.向数据库中记录待处理任务
-
-
         return RestResponse.success(true);
     }
 
