@@ -540,4 +540,11 @@ public class MediaFileServiceImpl implements MediaFileService {
 
     }
 
+    /**
+     * 根据媒资id获取媒资信息
+     */
+    @Override
+    public MediaFiles getFileById(String mediaId) {
+        return mediaFilesMapper.selectById(mediaId);
+    }
 }

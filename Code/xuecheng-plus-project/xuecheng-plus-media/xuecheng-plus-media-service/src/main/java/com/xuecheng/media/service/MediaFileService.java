@@ -106,4 +106,9 @@ public interface MediaFileService {
      * @param mimeType      上传的文件类型
      */
     public boolean addMediaFilesToMinIO(String localFilePath, String bucket, String objectName, String mimeType);
+
+    /**
+     * 根据媒资id获取媒资信息
+     */
+    MediaFiles getFileById(String mediaId);
 }

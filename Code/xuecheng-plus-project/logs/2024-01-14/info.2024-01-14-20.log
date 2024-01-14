@@ -1,0 +1,12 @@
+2024-01-14 21:00:00,394 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-01-14 21:00:00,394 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-01-14 21:00:02,622 DEBUG [xxl-job, JobThread-4-1705234004231][BaseJdbcLogger.java:137] - ==>  Preparing: select * from media_process t where t.id % ? = ? and (t.status = '1' or t.status = '3') and t.fail_count < 3 limit ?
+2024-01-14 21:00:02,622 DEBUG [xxl-job, JobThread-4-1705234004231][BaseJdbcLogger.java:137] - ==>  Preparing: select * from media_process t where t.id % ? = ? and (t.status = '1' or t.status = '3') and t.fail_count < 3 limit ?
+2024-01-14 21:00:02,623 DEBUG [xxl-job, JobThread-4-1705234004231][BaseJdbcLogger.java:137] - ==> Parameters: 1(Integer), 0(Integer), 8(Integer)
+2024-01-14 21:00:02,623 DEBUG [xxl-job, JobThread-4-1705234004231][BaseJdbcLogger.java:137] - ==> Parameters: 1(Integer), 0(Integer), 8(Integer)
+2024-01-14 21:00:02,626 DEBUG [xxl-job, JobThread-4-1705234004231][BaseJdbcLogger.java:137] - <==      Total: 0
+2024-01-14 21:00:02,626 DEBUG [xxl-job, JobThread-4-1705234004231][BaseJdbcLogger.java:137] - <==      Total: 0
+2024-01-14 21:00:02,627 DEBUG [xxl-job, JobThread-4-1705234004231][VideoTask.java:59] - 取到的视频处理任务数：0
+2024-01-14 21:00:02,627 DEBUG [xxl-job, JobThread-4-1705234004231][VideoTask.java:59] - 取到的视频处理任务数：0
+2024-01-14 21:00:02,628 DEBUG [xxl-job, JobThread-4-1705234004231][TriggerCallbackThread.java:40] - >>>>>>>>>>> xxl-job, push callback request, logId:140035
+2024-01-14 21:00:02,628 DEBUG [xxl-job, JobThread-4-1705234004231][TriggerCallbackThread.java:40] - >>>>>>>>>>> xxl-job, push callback request, logId:140035

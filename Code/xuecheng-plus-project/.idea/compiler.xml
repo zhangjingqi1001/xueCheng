@@ -12,7 +12,7 @@
         <module name="xxl-job-admin" />
         <module name="xxl-job-executor-sample-frameless" />
       </profile>
-      <profile name="Annotation profile for xuecheng-plus-generator" enabled="true">
+      <profile name="Annotation profile for xuecheng-plus-content" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />

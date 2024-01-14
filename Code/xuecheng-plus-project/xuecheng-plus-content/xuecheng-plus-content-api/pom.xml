@@ -11,6 +11,12 @@
 
 
     <dependencies>
+        <!-- Spring Boot 对结果视图 Freemarker 集成 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-freemarker</artifactId>
+        </dependency>
+
         <!--服务注册-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
