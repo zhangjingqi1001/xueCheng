@@ -5,12 +5,14 @@ import com.baomidou.mybatisplus.annotation.TableId;
 import com.xuecheng.base.exception.XueChengPlusException;
 import com.xuecheng.content.mapper.CourseBaseMapper;
 import com.xuecheng.content.mapper.CourseMarketMapper;
+import com.xuecheng.content.mapper.CoursePublishMapper;
 import com.xuecheng.content.mapper.CoursePublishPreMapper;
 import com.xuecheng.content.model.dto.CourseBaseInfoDto;
 import com.xuecheng.content.model.dto.CoursePreviewDto;
 import com.xuecheng.content.model.dto.TeachplanDto;
 import com.xuecheng.content.model.po.CourseBase;
 import com.xuecheng.content.model.po.CourseMarket;
+import com.xuecheng.content.model.po.CoursePublish;
 import com.xuecheng.content.model.po.CoursePublishPre;
 import com.xuecheng.content.service.CourseBaseInfoService;
 import com.xuecheng.content.service.CoursePublishService;
@@ -45,6 +47,9 @@ public class CoursePublishServiceImpl implements CoursePublishService {
     CoursePublishPreMapper coursePublishPreMapper;
 
     @Autowired
+    CoursePublishMapper coursePublishMapper;
+
+    @Autowired
     CourseBaseMapper courseBaseMapper;
 
     @Autowired
@@ -71,8 +76,8 @@ public class CoursePublishServiceImpl implements CoursePublishService {
     }
 
     /**
+     * @param courseId 课程id
      * @description 提交审核
-     * @param courseId  课程id
      */
     @Transactional
     @Override
@@ -83,9 +88,9 @@ public class CoursePublishServiceImpl implements CoursePublishService {
             XueChengPlusException.cast("课程找不到");
         }
         //得到审核状态
-        String auditStatus  = courseBaseInfo.getAuditStatus();
+        String auditStatus = courseBaseInfo.getAuditStatus();
         //TODO 如果课程的审核状态为已提交则不允许提交
-        if ("202003".equals(auditStatus )) {
+        if ("202003".equals(auditStatus)) {
             XueChengPlusException.cast("课程已经提交申请，请您耐心等待审核");
         }
 
@@ -106,7 +111,7 @@ public class CoursePublishServiceImpl implements CoursePublishService {
         CoursePublishPre coursePublishPre = new CoursePublishPre();
 
         //TODO 1.1课程基本信息加部分营销信息
-        BeanUtils.copyProperties(courseBaseInfo,coursePublishPre);
+        BeanUtils.copyProperties(courseBaseInfo, coursePublishPre);
         // 设置机构id
         coursePublishPre.setCompanyId(companyId);
         //课程营销信息
@@ -118,7 +123,7 @@ public class CoursePublishServiceImpl implements CoursePublishService {
 
         //TODO 1.2查询课程计划信息
         List<TeachplanDto> teachplanTree = teachplanService.findTeachplanTree(courseId);
-        if(teachplanTree.size()<=0){
+        if (teachplanTree.size() <= 0) {
             XueChengPlusException.cast("提交失败，还没有添加课程计划");
         }
         //转json
@@ -132,10 +137,10 @@ public class CoursePublishServiceImpl implements CoursePublishService {
         //提交时间
         coursePublishPre.setCreateDate(LocalDateTime.now());
         CoursePublishPre coursePublishPreUpdate = coursePublishPreMapper.selectById(courseId);
-        if(coursePublishPreUpdate == null){
+        if (coursePublishPreUpdate == null) {
             //添加课程预发布记录
             coursePublishPreMapper.insert(coursePublishPre);
-        }else{
+        } else {
             coursePublishPreMapper.updateById(coursePublishPre);
         }
 
@@ -144,6 +149,49 @@ public class CoursePublishServiceImpl implements CoursePublishService {
         // 审核状态为已提交
         courseBase.setAuditStatus("202003");
         courseBaseMapper.updateById(courseBase);
+    }
+
+    /**
+     * 课程发布接口
+     *
+     * @param companyId 机构id
+     * @param courseId  课程id
+     */
+    @Transactional
+    @Override
+    public void publish(Long companyId, Long courseId) {
+
+        //TODO 1.查询预发布表，课程如果没有审核通过不允许发布，通过了向课程发布表写数据
+        //1.1 查询预发布表
+        CoursePublishPre coursePublishPre = coursePublishPreMapper.selectById(courseId);
+
+        if (coursePublishPre == null) {
+            XueChengPlusException.cast("课程无审核记录，无法发布");
+        }
+
+        //预发布表的审核状态（审核通过202004）
+        String status = coursePublishPre.getStatus();
+        if (!"202004".equals(status)) {
+            //课程没有审核通过不允许发布
+            XueChengPlusException.cast("课程没有审核通过不允许发布");
+        }
+        //1.2 向课程发布表写入数据
+        CoursePublish coursePublish = new CoursePublish();
+        //课程预发布表和课程发布表ode数据结构是一个样子的
+        BeanUtils.copyProperties(coursePublishPre, coursePublish);
+        //首先查询课程发布表，看看此课程之前是是否发布过
+        CoursePublish coursePublishOld = coursePublishMapper.selectById(courseId);
+        if (coursePublishOld == null){
+            coursePublishMapper.insert(coursePublish);
+        }else {
+            coursePublishMapper.updateById(coursePublishOld);
+        }
+
+        //TODO 2.向消息表写入数据
+
+
+        //TODO 3.将预发布表的数据删除
+
     }
 
 

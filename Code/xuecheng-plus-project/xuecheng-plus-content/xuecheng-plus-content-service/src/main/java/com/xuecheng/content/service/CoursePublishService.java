@@ -18,4 +18,13 @@ public interface CoursePublishService {
      */
     public void commitAudit(Long companyId,Long courseId);
 
+
+    /**
+     * 课程发布接口
+     *
+     * @param companyId 机构id
+     * @param courseId  课程id
+     */
+    public void publish(Long companyId,Long courseId);
+
 }

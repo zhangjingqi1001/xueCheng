@@ -12,6 +12,7 @@ import com.xuecheng.content.model.po.CoursePublishPre;
 import com.xuecheng.content.service.CourseBaseInfoService;
 import com.xuecheng.content.service.TeachplanService;
 import com.xuecheng.content.service.impl.CoursePublishServiceImpl;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -34,6 +35,12 @@ public class CoursePublishController {
     @Autowired
     CourseBaseInfoService courseBaseInfoService;
 
+    /**
+     * 课程预览
+     *
+     * @param courseId
+     * @return
+     */
     @GetMapping("/coursepreview/{courseId}")
     public ModelAndView preview(@PathVariable("courseId") Long courseId) {
 
@@ -47,12 +54,25 @@ public class CoursePublishController {
         return modelAndView;
     }
 
+    /**
+     * 提交审核
+     *
+     * @param courseId
+     */
     @ResponseBody
-    @PostMapping ("/courseaudit/commit/{courseId}")
-    public void commitAudit(@PathVariable("courseId") Long courseId){
+    @PostMapping("/courseaudit/commit/{courseId}")
+    public void commitAudit(@PathVariable("courseId") Long courseId) {
         Long companyId = 1232141425L;
-        coursePublishService.commitAudit(companyId,courseId);
-
+        coursePublishService.commitAudit(companyId, courseId);
     }
+
+    @ApiOperation("课程发布")
+    @ResponseBody
+    @PostMapping("/coursepublish/{courseId}")
+    public void coursepublish(@PathVariable("courseId") Long courseId) {
+        Long companyId = 1232141425L;
+        coursePublishService.publish(companyId, courseId);
+    }
+
 
 }
