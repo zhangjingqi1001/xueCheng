@@ -2,6 +2,7 @@ package com.xuecheng.content.service.impl;
 
 import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.annotation.TableId;
+import com.xuecheng.base.exception.CommonError;
 import com.xuecheng.base.exception.XueChengPlusException;
 import com.xuecheng.content.mapper.CourseBaseMapper;
 import com.xuecheng.content.mapper.CourseMarketMapper;
@@ -17,6 +18,8 @@ import com.xuecheng.content.model.po.CoursePublishPre;
 import com.xuecheng.content.service.CourseBaseInfoService;
 import com.xuecheng.content.service.CoursePublishService;
 import com.xuecheng.content.service.TeachplanService;
+import com.xuecheng.messagesdk.model.po.MqMessage;
+import com.xuecheng.messagesdk.service.MqMessageService;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -54,6 +57,10 @@ public class CoursePublishServiceImpl implements CoursePublishService {
 
     @Autowired
     CoursePublishServiceImpl coursePublishService;
+
+    @Autowired
+    MqMessageService mqMessageService;
+
 
     /**
      * @param courseId 课程id
@@ -181,18 +188,32 @@ public class CoursePublishServiceImpl implements CoursePublishService {
         BeanUtils.copyProperties(coursePublishPre, coursePublish);
         //首先查询课程发布表，看看此课程之前是是否发布过
         CoursePublish coursePublishOld = coursePublishMapper.selectById(courseId);
-        if (coursePublishOld == null){
+        if (coursePublishOld == null) {
             coursePublishMapper.insert(coursePublish);
-        }else {
+        } else {
             coursePublishMapper.updateById(coursePublishOld);
         }
 
         //TODO 2.向消息表写入数据
-
+        this.saveCoursePublishMessage(courseId);
 
         //TODO 3.将预发布表的数据删除
-
+        coursePublishPreMapper.deleteById(courseId);
     }
 
+    /**
+     * 保存消息表记录
+     *
+     * @param courseId 课程id
+     */
+    private void saveCoursePublishMessage(Long courseId) {
+        //我们可以任务约定一下课程发布的messageType是course_publish
+        //剩下三个参数是业务信息字段,如果不使用的话填空即可
+        MqMessage mqMessage = mqMessageService.addMessage("course_publish", courseId.toString(), null, null);
+        if (mqMessage == null) {
+            XueChengPlusException.cast(CommonError.UNKOWN_ERROR);
+        }
+
+    }
 
 }

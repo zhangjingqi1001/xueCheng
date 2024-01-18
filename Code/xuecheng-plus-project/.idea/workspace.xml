@@ -5,10 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee3004af-e83d-4fff-83bf-d7767a24a746" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/logs/2024-01-15/info.2024-01-15-01.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/2024-01-18/info.2024-01-18-23.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/config/XxlJobConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/jobhandler/CoursePublishTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-message-sdk/logs/2022-09-22/info.2022-09-22-12.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-message-sdk/logs/2022-09-22/info.2022-09-22-13.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-message-sdk/logs/error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-message-sdk/logs/info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-message-sdk/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-message-sdk/src/main/java/com/xuecheng/messagesdk/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-message-sdk/src/main/java/com/xuecheng/messagesdk/mapper/MqMessageHistoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-message-sdk/src/main/java/com/xuecheng/messagesdk/mapper/MqMessageHistoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-message-sdk/src/main/java/com/xuecheng/messagesdk/mapper/MqMessageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-message-sdk/src/main/java/com/xuecheng/messagesdk/mapper/MqMessageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-message-sdk/src/main/java/com/xuecheng/messagesdk/model/po/MqMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-message-sdk/src/main/java/com/xuecheng/messagesdk/model/po/MqMessageHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-message-sdk/src/main/java/com/xuecheng/messagesdk/service/MessageProcessAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-message-sdk/src/main/java/com/xuecheng/messagesdk/service/MqMessageHistoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-message-sdk/src/main/java/com/xuecheng/messagesdk/service/MqMessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-message-sdk/src/main/java/com/xuecheng/messagesdk/service/impl/MqMessageHistoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-message-sdk/src/main/java/com/xuecheng/messagesdk/service/impl/MqMessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-message-sdk/src/test/java/com/xuecheng/messagesdk/MessagesdkApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-message-sdk/src/test/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-message-sdk/src/test/resources/log4j2-dev.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nginx-1.23.1/logs/nginx.pid" beforeDir="false" afterPath="$PROJECT_DIR$/../nginx-1.23.1/logs/nginx.pid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/CoursePublishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/CoursePublishController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/CoursePublishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/CoursePublishService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CoursePublishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CoursePublishServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Note/5.2 内容管理模块 - 课程发布.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Note/5.2 内容管理模块 - 课程发布.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +99,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/resources/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xuecheng-plus-message-sdk" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -79,6 +109,7 @@
     <property name="project.structure.side.proportion" value="0.31494254" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/xuecheng-plus-message-sdk" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -95,6 +126,7 @@
       <recent name="com.xuecheng.content" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.xuecheng.content.config" />
       <recent name="com.xuecheng.media.service.jobhandler" />
       <recent name="com.xuecheng.media.config" />
       <recent name="com.xuecheng" />
@@ -210,9 +242,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ContentApplication" />
-        <item itemvalue="Spring Boot.MediaApplication" />
         <item itemvalue="Spring Boot.SystemApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.MediaApplication" />
         <item itemvalue="Application.Mp4VideoUtil" />
       </list>
     </recent_temporary>
@@ -258,6 +290,7 @@
       <workItem from="1705287377418" duration="2000" />
       <workItem from="1705330909934" duration="604000" />
       <workItem from="1705418688072" duration="1983000" />
+      <workItem from="1705584448750" duration="6735000" />
     </task>
     <servers />
   </component>
