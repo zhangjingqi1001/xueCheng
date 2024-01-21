@@ -641,3 +641,6 @@
 127.0.0.1 - - [15/Jan/2024:00:48:30 +0800] "POST /api/content/courseaudit/commit/1 HTTP/1.1" 200 0 "http://localhost:8601/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0"
 127.0.0.1 - - [15/Jan/2024:00:49:02 +0800] "POST /api/content/course/list?pageNo=1&pageSize=10 HTTP/1.1" 200 6425 "http://localhost:8601/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0"
 127.0.0.1 - - [15/Jan/2024:00:49:02 +0800] "POST /api/content/courseaudit/commit/2 HTTP/1.1" 200 0 "http://localhost:8601/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0"
+127.0.0.1 - - [18/Jan/2024:23:31:45 +0800] "POST /api/content/course/list?pageNo=1&pageSize=10 HTTP/1.1" 200 6432 "http://localhost:8601/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0"
+127.0.0.1 - - [18/Jan/2024:23:38:40 +0800] "POST /api/content/course/list?pageNo=1&pageSize=10 HTTP/1.1" 200 6432 "http://localhost:8601/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0"
+127.0.0.1 - - [18/Jan/2024:23:38:40 +0800] "POST /api/content/coursepublish/1 HTTP/1.1" 200 0 "http://localhost:8601/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0"

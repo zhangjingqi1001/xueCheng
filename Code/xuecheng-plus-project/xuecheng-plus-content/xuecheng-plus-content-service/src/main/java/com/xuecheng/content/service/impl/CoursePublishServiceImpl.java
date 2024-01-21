@@ -4,6 +4,8 @@ import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.xuecheng.base.exception.CommonError;
 import com.xuecheng.base.exception.XueChengPlusException;
+import com.xuecheng.content.config.MultipartSupportConfig;
+import com.xuecheng.content.feignclient.MediaServiceClient;
 import com.xuecheng.content.mapper.CourseBaseMapper;
 import com.xuecheng.content.mapper.CourseMarketMapper;
 import com.xuecheng.content.mapper.CoursePublishMapper;
@@ -20,18 +22,30 @@ import com.xuecheng.content.service.CoursePublishService;
 import com.xuecheng.content.service.TeachplanService;
 import com.xuecheng.messagesdk.model.po.MqMessage;
 import com.xuecheng.messagesdk.service.MqMessageService;
+import freemarker.template.Configuration;
+import freemarker.template.Template;
+import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.io.IOUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.ui.freemarker.FreeMarkerTemplateUtils;
 import org.springframework.util.StringUtils;
+import org.springframework.web.multipart.MultipartFile;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.InputStream;
 import java.time.LocalDateTime;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * 课程发布相关业务
  */
+@Slf4j
 @Service
 public class CoursePublishServiceImpl implements CoursePublishService {
 
@@ -201,6 +215,7 @@ public class CoursePublishServiceImpl implements CoursePublishService {
         coursePublishPreMapper.deleteById(courseId);
     }
 
+
     /**
      * 保存消息表记录
      *
@@ -216,4 +231,74 @@ public class CoursePublishServiceImpl implements CoursePublishService {
 
     }
 
+    /**
+     * 生成html页面
+     *
+     * @param courseId 课程id
+     * @return File 静态化文件
+     * @description 课程静态化
+     */
+    @Override
+    public File generateCourseHtml(Long courseId) {
+        //最终要返回的静态化文件
+        File htmlFile = null;
+
+        try {
+            //TODO 准备模板
+            // import freemarker.template.Configuration
+            // new Configuration 实例时输入传入一下Configuration当前的版本
+            Configuration configuration = new Configuration(Configuration.getVersion());
+            // 找到模板路径
+            String classPath = this.getClass().getResource("/").getPath();
+            // 指定模板目录 (从哪个目录加载模板)
+            configuration.setDirectoryForTemplateLoading(new File(classPath + "/templates"));
+            // 指定编码
+            configuration.setDefaultEncoding("UTF-8");
+            // 得到模板
+            Template template = configuration.getTemplate("course_template.ftl");
+
+            //TODO 准备数据
+            CoursePreviewDto coursePreviewInfo = this.getCoursePreviewInfo(courseId);
+            Map<String, Object> map = new HashMap<>();
+            map.put("model", coursePreviewInfo);
+
+            //TODO 将一个页面（源代码）转换成字符串
+            // 参数1：模板  参数2：数据
+            String html = FreeMarkerTemplateUtils.processTemplateIntoString(template, map);
+
+            //TODO 使用流将静态化内容输出到文件中
+            InputStream inputStream = IOUtils.toInputStream(html, "utf-8");
+
+            htmlFile = File.createTempFile("coursepublish" + courseId, ".html");
+            //输出流
+            FileOutputStream outputStream = new FileOutputStream(htmlFile);
+            IOUtils.copy(inputStream, outputStream);
+
+        } catch (Exception e) {
+            log.error("课程静态化异常:{}，课程id：{}", e.toString(), courseId);
+            XueChengPlusException.cast("课程静态化异常");
+        }
+        return htmlFile;
+    }
+
+    @Autowired
+    MediaServiceClient mediaServiceClient;
+
+    /**
+     * 将静态html文件上传至minio
+     *
+     * @param file 静态化文件
+     * @return void
+     * @description 上传课程静态化页面
+     */
+    @Override
+    public void uploadCourseHtml(Long courseId, File file) {
+        MultipartFile multipartFile = MultipartSupportConfig.getMultipartFile(file);
+        // 发送Feign请求
+        String upload = mediaServiceClient.upload(multipartFile, "course/" + courseId + ".html");
+        if (upload == null) {
+            log.debug("远程调用走降级逻辑，得到的结果为null,课程id：{}",courseId);
+            XueChengPlusException.cast("上传静态文件异常");
+        }
+    }
 }

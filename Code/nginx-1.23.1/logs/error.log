@@ -5,3 +5,4 @@
 2024/01/14 22:39:09 [error] 20896#24356: *69 CreateFile() "D:/zhangjingqi/Note/xuecheng/Code/xc-ui-pc-static-portal/xc-ui-pc-static-portal/open/content/course/whole/1" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: www.51xuecheng.cn, request: "GET /open/content/course/whole/1 HTTP/1.1", host: "www.51xuecheng.cn", referrer: "http://www.51xuecheng.cn/course/preview/learning.html?id=1"
 2024/01/14 22:42:14 [error] 20896#24356: *74 CreateFile() "D:/zhangjingqi/Note/xuecheng/Code/xc-ui-pc-static-portal/xc-ui-pc-static-portal/open/content/course/whole/1" failed (3: The system cannot find the path specified), client: 127.0.0.1, server: www.51xuecheng.cn, request: "GET /open/content/course/whole/1 HTTP/1.1", host: "www.51xuecheng.cn", referrer: "http://www.51xuecheng.cn/course/preview/learning.html?id=1"
 2024/01/14 22:48:27 [notice] 25880#26228: signal process started
+2024/01/20 18:50:26 [notice] 5276#23036: signal process started

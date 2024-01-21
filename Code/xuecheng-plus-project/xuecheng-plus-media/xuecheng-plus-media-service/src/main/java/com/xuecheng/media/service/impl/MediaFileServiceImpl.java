@@ -22,6 +22,7 @@ import io.minio.messages.DeleteObject;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.io.IOUtils;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -95,7 +96,7 @@ public class MediaFileServiceImpl implements MediaFileService {
      * @return 文件信息
      */
     @Override
-    public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath) {
+    public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath, String objectName) {
         //TODO 1.将文件上传到Minio
         //TODO 1.1 获取文件扩展名
         String filename = uploadFileParamsDto.getFilename();
@@ -110,15 +111,19 @@ public class MediaFileServiceImpl implements MediaFileService {
         String defaultFolderPath = this.getDefaultFolderPath();
         //最终存储的文件名是MD5值
         String fileMd5 = this.getFileMd5(new File(localFilePath));
-        String ObjectName = defaultFolderPath + fileMd5 + extension;
+        //存储到minio中的对象名(带目录)
+        if(StringUtils.isEmpty(objectName)){
+            objectName =  defaultFolderPath + fileMd5 + extension;
+        }
+         objectName = defaultFolderPath + fileMd5 + extension;
         //TODO 1.5 上传文件到Minio
-        boolean result = this.addMediaFilesToMinIO(localFilePath, bucket_medialFiles, ObjectName, mimeType);
+        boolean result = this.addMediaFilesToMinIO(localFilePath, bucket_medialFiles, objectName, mimeType);
 
         if (!result) {
             XueChengPlusException.cast("上传文件失败");
         }
         //TODO 2.将文件信息保存到数据库
-        MediaFiles mediaFiles = currentProxy.addMediaFilesToDb(companyId, fileMd5, uploadFileParamsDto, bucket_medialFiles, ObjectName);
+        MediaFiles mediaFiles = currentProxy.addMediaFilesToDb(companyId, fileMd5, uploadFileParamsDto, bucket_medialFiles, objectName);
         if (mediaFiles == null) {
             XueChengPlusException.cast("文件上传后保存信息失败");
         }
@@ -179,7 +184,7 @@ public class MediaFileServiceImpl implements MediaFileService {
         if (mimeType.equals("video/x-msvideo")) {
             //说明文件是avi文件，需要写入待处理任务表
             MediaProcess mediaProcess = new MediaProcess();
-            BeanUtils.copyProperties(mediaFiles,mediaProcess);
+            BeanUtils.copyProperties(mediaFiles, mediaProcess);
             mediaProcess.setStatus("1");//未处理
             mediaProcess.setFailCount(0);//失败次数默认为0
             mediaProcess.setUrl(null);

@@ -11,10 +11,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestPart;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.awt.*;
@@ -54,7 +51,8 @@ public class MediaFilesController {
      */
     @ApiOperation("上传图片")
     @PostMapping(value = "/upload/coursefile", consumes = MediaType.MULTIPART_FORM_DATA_VALUE)
-    public UploadFileResultDto upload(@RequestPart("filedata") MultipartFile filedata) throws IOException {
+    public UploadFileResultDto upload(@RequestPart("filedata") MultipartFile filedata,
+                                      @RequestParam(value = "objectName", required = false) String objectName) throws IOException {
         //此时已经接收到文件了，目前作为临时文件存储在内存中
         //1.创建一个临时文件,前缀是"minio"，后缀是“.temp”
         File tempFile = File.createTempFile("minio", ".temp");
@@ -73,6 +71,6 @@ public class MediaFilesController {
         //文件类型 001001在数据字典中代表图片
         uploadFileParamsDto.setFileType("001001");
         //调用service上传图片
-        return mediaFileService.uploadFile(companyId, uploadFileParamsDto, localFilePath);
+        return mediaFileService.uploadFile(companyId, uploadFileParamsDto, localFilePath,objectName);
     }
 }
