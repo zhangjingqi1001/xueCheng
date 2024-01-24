@@ -12,6 +12,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
@@ -60,10 +61,13 @@ public class CourseBaseInfoController {
     @ApiOperation("修改课程接口")
     @PutMapping("/course")
     public CourseBaseInfoDto getCourseBaseById(@RequestBody EditCourseDto editCourseDto) {
+        // getContext() 获取上下文对象,getAuthentication()拿到认证信息,getPrincipal()拿到身份信息
+        SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+
 
         //机构id先写死，后面授权认证的时候后会改过来
         Long companyId = 1232141425L;
-        return courseBaseInfoService.updateCourseBase(companyId,editCourseDto);
+        return courseBaseInfoService.updateCourseBase(companyId, editCourseDto);
     }
 
 }

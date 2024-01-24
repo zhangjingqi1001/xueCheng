@@ -1,0 +1,38 @@
+2024-01-22 00:00:59,901 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field authenticationManager in com.xuecheng.auth.config.AuthorizationServer required a bean of type 'org.springframework.security.authentication.AuthenticationManager' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationManager' in your configuration.
+
+2024-01-22 00:02:47,794 ERROR [main][LoggingFailureAnalysisReporter.java:40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field authenticationManager in com.xuecheng.auth.config.AuthorizationServer required a bean of type 'org.springframework.security.authentication.AuthenticationManager' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationManager' in your configuration.
+
+2024-01-22 00:38:38,331 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][ServerHttpAgent.java:169] - [NACOS SocketTimeoutException httpPost] currentServerAddr: http://192.168.101.65:8848， err : connect timed out
+2024-01-22 00:38:41,341 ERROR [com.alibaba.nacos.client.Worker.longPolling.fixed-192.168.101.65_8848-dev][ServerHttpAgent.java:169] - [NACOS SocketTimeoutException httpPost] currentServerAddr: http://192.168.101.65:8848， err : connect timed out
