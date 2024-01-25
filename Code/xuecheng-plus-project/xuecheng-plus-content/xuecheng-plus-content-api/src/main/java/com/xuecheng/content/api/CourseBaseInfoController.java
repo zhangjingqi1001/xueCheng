@@ -8,6 +8,7 @@ import com.xuecheng.content.model.dto.EditCourseDto;
 import com.xuecheng.content.model.dto.QueryCourseParamsDto;
 import com.xuecheng.content.model.po.CourseBase;
 import com.xuecheng.content.service.CourseBaseInfoService;
+import com.xuecheng.content.utils.SecurityUtil;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
@@ -62,9 +63,9 @@ public class CourseBaseInfoController {
     @PutMapping("/course")
     public CourseBaseInfoDto getCourseBaseById(@RequestBody EditCourseDto editCourseDto) {
         // getContext() 获取上下文对象,getAuthentication()拿到认证信息,getPrincipal()拿到身份信息
-        SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-
-
+        //SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        SecurityUtil.XcUser user = SecurityUtil.getUser();
+        System.out.println(user.getUsername());
         //机构id先写死，后面授权认证的时候后会改过来
         Long companyId = 1232141425L;
         return courseBaseInfoService.updateCourseBase(companyId, editCourseDto);

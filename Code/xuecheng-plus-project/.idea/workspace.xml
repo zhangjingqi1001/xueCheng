@@ -5,27 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee3004af-e83d-4fff-83bf-d7767a24a746" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api-test/http-client.env.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-test/xc-auth-api.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-test/xc-checkcode-api.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-test/xc-content-api.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-test/xc-media-api.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-test/xc-search-api.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/config/TokenConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-gateway/src/main/java/com/xuecheng/config/GatewayAuthFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-gateway/src/main/java/com/xuecheng/config/RestErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-gateway/src/main/java/com/xuecheng/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-gateway/src/main/java/com/xuecheng/config/TokenConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-gateway/src/main/java/com/xuecheng/config/security-whitelist.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-auth/src/main/java/com/xuecheng/ucenter/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/utils/SecurityUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nginx-1.23.1/logs/nginx.pid" beforeDir="false" afterPath="$PROJECT_DIR$/../nginx-1.23.1/logs/nginx.pid" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-auth/src/main/java/com/xuecheng/auth/config/TokenConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-auth/src/main/java/com/xuecheng/auth/config/TokenConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/CourseBaseInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/CourseBaseInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Note/6.1 认证授权模块.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Note/6.1 认证授权模块.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-auth/src/main/java/com/xuecheng/auth/config/AuthorizationServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-auth/src/main/java/com/xuecheng/auth/config/AuthorizationServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-auth/src/main/java/com/xuecheng/ucenter/model/po/XcUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-auth/src/main/java/com/xuecheng/ucenter/model/po/XcUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Note/6.3 认证授权模块 - 用户认证.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Note/6.3 认证授权模块 - 用户认证.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -276,6 +262,7 @@
       <workItem from="1706025245976" duration="1891000" />
       <workItem from="1706101990115" duration="5147000" />
       <workItem from="1706112930259" duration="195000" />
+      <workItem from="1706197320822" duration="4323000" />
     </task>
     <servers />
   </component>

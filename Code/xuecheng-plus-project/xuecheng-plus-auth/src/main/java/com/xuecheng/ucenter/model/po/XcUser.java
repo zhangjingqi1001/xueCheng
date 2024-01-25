@@ -6,13 +6,7 @@ import lombok.Data;
 import java.io.Serializable;
 import java.time.LocalDateTime;
 
-/**
- * <p>
- * 
- * </p>
- *
- * @author itcast
- */
+
 @Data
 @TableName("xc_user")
 public class XcUser implements Serializable {
@@ -28,8 +22,11 @@ public class XcUser implements Serializable {
     private String salt;
 
     private String name;
+
     private String nickname;
+
     private String wxUnionid;
+
     private String companyId;
     /**
      * 头像
