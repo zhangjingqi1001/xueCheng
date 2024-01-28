@@ -45,10 +45,10 @@ public class GatewayAuthFilter implements GlobalFilter, Ordered {
             Properties properties = new Properties();
             properties.load(resourceAsStream);
             Set<String> strings = properties.stringPropertyNames();
-            whitelist= new ArrayList<>(strings);
+            whitelist = new ArrayList<>(strings);
 
         } catch (Exception e) {
-            log.error("加载/security-whitelist.properties出错:{}",e.getMessage());
+            log.error("加载/security-whitelist.properties出错:{}", e.getMessage());
             e.printStackTrace();
         }
 
@@ -79,7 +79,7 @@ public class GatewayAuthFilter implements GlobalFilter, Ordered {
         String token = getToken(exchange);
         if (StringUtils.isBlank(token)) {
             // 此时token为空或null
-            return buildReturnMono("没有认证",exchange);
+            return buildReturnMono("没有认证", exchange);
         }
         //TODO 运行到这里token肯定是有值的
         //判断是否是有效的token
@@ -90,13 +90,13 @@ public class GatewayAuthFilter implements GlobalFilter, Ordered {
             // 判断token是否过期
             boolean expired = oAuth2AccessToken.isExpired();
             if (expired) {
-                return buildReturnMono("认证令牌已过期",exchange);
+                return buildReturnMono("认证令牌已过期", exchange);
             }
             return chain.filter(exchange);
         } catch (InvalidTokenException e) {
             // 运行到这里说明令牌被篡改了
             log.info("认证令牌无效: {}", token);
-            return buildReturnMono("认证令牌无效",exchange);
+            return buildReturnMono("认证令牌无效", exchange);
         }
 
     }
@@ -115,8 +115,6 @@ public class GatewayAuthFilter implements GlobalFilter, Ordered {
         }
         return token;
     }
-
-
 
 
     private Mono<Void> buildReturnMono(String error, ServerWebExchange exchange) {

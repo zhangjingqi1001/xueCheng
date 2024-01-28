@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee3004af-e83d-4fff-83bf-d7767a24a746" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-auth/src/main/java/com/xuecheng/ucenter/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/utils/SecurityUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nginx-1.23.1/logs/nginx.pid" beforeDir="false" afterPath="$PROJECT_DIR$/../nginx-1.23.1/logs/nginx.pid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-auth/src/main/java/com/xuecheng/auth/config/AuthorizationServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-auth/src/main/java/com/xuecheng/auth/config/AuthorizationServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-auth/src/main/java/com/xuecheng/ucenter/model/po/XcUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-auth/src/main/java/com/xuecheng/ucenter/model/po/XcUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Note/6.3 认证授权模块 - 用户认证.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Note/6.3 认证授权模块 - 用户认证.md" afterDir="false" />
-    </list>
+    <list default="true" id="ee3004af-e83d-4fff-83bf-d7767a24a746" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +64,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xuecheng-plus-gateway/src/main/java/com/xuecheng/config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xuecheng-plus-auth/src/main/java/com/xuecheng/auth/config" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -82,7 +74,7 @@
     <property name="project.structure.side.proportion" value="0.31494254" />
     <property name="rest.client.default.execution.environment" value="dev" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/xuecheng-plus-message-sdk" />
   </component>
   <component name="ReactorSettings">
@@ -90,11 +82,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\zhangjingqi\Note\xuecheng\Code\xuecheng-plus-project\xuecheng-plus-auth\src\main\java\com\xuecheng\auth\config" />
+      <recent name="D:\zhangjingqi\Note\xuecheng\Code\xuecheng-plus-project\xuecheng-plus-auth\src\main\resources" />
       <recent name="D:\zhangjingqi\Note\xuecheng\Code\xuecheng-plus-project\xuecheng-plus-gateway\src\main\java\com\xuecheng\config" />
       <recent name="D:\zhangjingqi\Note\xuecheng\Code\xuecheng-plus-project" />
       <recent name="D:\zhangjingqi\Note\xuecheng\Code\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-api\src\main\java\com\xuecheng\content\config" />
-      <recent name="D:\zhangjingqi\Note\xuecheng\Code\xuecheng-plus-project\xuecheng-plus-auth\src\main\java\com\xuecheng\auth\config" />
-      <recent name="D:\zhangjingqi\Note\xuecheng\Code\xuecheng-plus-project\xuecheng-plus-content\xuecheng-plus-content-service\src\main\java\com\xuecheng\content\config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\zhangjingqi\Note\xuecheng\Code\xuecheng-plus-project\xuecheng-plus-gateway\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.xuecheng.content" />
@@ -113,25 +108,18 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.xc-content-api | 课程查询">
-    <configuration name="xc-content-api | 课程查询" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-content-api.http" index="4" requestIdentifier="课程查询" runType="Run single request">
+  <component name="RunManager" selected="Spring Boot.AuthApplication">
+    <configuration name="xc-auth-api | 密码模式，请求AuthParamsDto参数" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-auth-api.http" index="4" requestIdentifier="密码模式，请求AuthParamsDto参数" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="FreemarkerTest.testGenerateHtmlByTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="xuecheng-plus-content-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xuecheng.content.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.xuecheng.content" />
-      <option name="MAIN_CLASS_NAME" value="com.xuecheng.content.FreemarkerTest" />
-      <option name="METHOD_NAME" value="testGenerateHtmlByTemplate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="xc-auth-api | 授权码模式" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-auth-api.http" requestIdentifier="授权码模式" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="xc-auth-api | 密码模式" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-auth-api.http" index="2" requestIdentifier="密码模式" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="xc-checkcode-api | 校验验证码" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-checkcode-api.http" index="2" requestIdentifier="校验验证码" runType="Run single request">
+      <method v="2" />
     </configuration>
     <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="xuecheng-plus-auth" />
@@ -146,37 +134,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="xuecheng-plus-content-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xuecheng.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.ContentApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MediaApplication2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="xuecheng-plus-media-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.MediaApplication" />
       <option name="VM_PARAMETERS" value="-Dserver.port=63051 -Dxxl.job.executor.port=9998" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="xuecheng-plus-system-api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xuecheng.system.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.system.SystemApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -196,22 +158,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="HTTP Request.xc-content-api | 课程查询" />
-      <item itemvalue="JUnit.FreemarkerTest.testGenerateHtmlByTemplate" />
+      <item itemvalue="HTTP Request.xc-auth-api | 密码模式" />
+      <item itemvalue="HTTP Request.xc-checkcode-api | 校验验证码" />
+      <item itemvalue="HTTP Request.xc-auth-api | 密码模式，请求AuthParamsDto参数" />
       <item itemvalue="Spring Boot.MediaApplication2" />
       <item itemvalue="Spring Boot.XxlJobExecutorApplication" />
       <item itemvalue="Spring Boot.XxlJobAdminApplication" />
-      <item itemvalue="Spring Boot.SystemApplication" />
-      <item itemvalue="Spring Boot.ContentApplication" />
       <item itemvalue="Spring Boot.AuthApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.xc-content-api | 课程查询" />
-        <item itemvalue="Spring Boot.ContentApplication" />
         <item itemvalue="Spring Boot.AuthApplication" />
-        <item itemvalue="JUnit.FreemarkerTest.testGenerateHtmlByTemplate" />
-        <item itemvalue="Spring Boot.SystemApplication" />
+        <item itemvalue="HTTP Request.xc-auth-api | 密码模式，请求AuthParamsDto参数" />
+        <item itemvalue="HTTP Request.xc-checkcode-api | 校验验证码" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +221,12 @@
       <workItem from="1706025245976" duration="1891000" />
       <workItem from="1706101990115" duration="5147000" />
       <workItem from="1706112930259" duration="195000" />
-      <workItem from="1706197320822" duration="4323000" />
+      <workItem from="1706197320822" duration="4510000" />
+      <workItem from="1706355686702" duration="5894000" />
+      <workItem from="1706423018448" duration="10182000" />
+      <workItem from="1706459465551" duration="267000" />
+      <workItem from="1706459824813" duration="110000" />
+      <workItem from="1706460166292" duration="2883000" />
     </task>
     <servers />
   </component>
@@ -308,6 +272,11 @@
           <url>file://$PROJECT_DIR$/xuecheng-plus-media/xuecheng-plus-media-service/src/main/java/com/xuecheng/media/service/jobhandler/VideoTask.java</url>
           <line>140</line>
           <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xuecheng-plus-auth/src/main/java/com/xuecheng/ucenter/service/impl/PasswordAuthServiceImpl.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -13,13 +13,15 @@ import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 
 import java.util.Arrays;
 
+/**
+ * @author Administrator
+ * @version 1.0
+ **/
 @Configuration
 public class TokenConfig {
 
-    // 对称加密的密钥
     private String SIGNING_KEY = "mq123";
 
-    //package org.springframework.security.oauth2.provider.token;
     @Autowired
     TokenStore tokenStore;
 
@@ -29,7 +31,6 @@ public class TokenConfig {
 //        return new InMemoryTokenStore();
 //    }
 
-    // 生成JWT的
     @Autowired
     private JwtAccessTokenConverter accessTokenConverter;
 
@@ -46,9 +47,9 @@ public class TokenConfig {
     }
 
     //令牌管理服务
-    @Bean(name = "authorizationServerTokenServicesCustom")
+    @Bean(name="authorizationServerTokenServicesCustom")
     public AuthorizationServerTokenServices tokenService() {
-        DefaultTokenServices service = new DefaultTokenServices();
+        DefaultTokenServices service=new DefaultTokenServices();
         service.setSupportRefreshToken(true);//支持刷新令牌
         service.setTokenStore(tokenStore);//令牌存储策略
 
@@ -60,4 +61,6 @@ public class TokenConfig {
         service.setRefreshTokenValiditySeconds(259200); // 刷新令牌默认有效期3天
         return service;
     }
+
+
 }

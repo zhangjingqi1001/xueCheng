@@ -3,8 +3,12 @@ package com.xuecheng.ucenter.service.impl;
 import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.xuecheng.ucenter.mapper.XcUserMapper;
+import com.xuecheng.ucenter.model.dto.AuthParamsDto;
+import com.xuecheng.ucenter.model.dto.XcUserExt;
 import com.xuecheng.ucenter.model.po.XcUser;
+import com.xuecheng.ucenter.service.AuthService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -18,29 +22,49 @@ public class UserServiceImpl implements UserDetailsService {
     @Autowired
     XcUserMapper xcUserMapper;
 
+    @Autowired
+    ApplicationContext applicationContext;
+
     /**
-     * @param s 其实就是输入的username（账号）
+     * @param s 传入的请求认证的参数是AuthParamDtoJSON串，此时不再是输入的username（账号）
      */
     @Override
     public UserDetails loadUserByUsername(String s) throws UsernameNotFoundException {
-        // 1.根据username账号查询数据库
-        // 因为账号是不可能重复的，直接selectOne即可
-        LambdaQueryWrapper<XcUser> lqw = new LambdaQueryWrapper<>();
-        lqw.eq(XcUser::getUsername, s);
-        XcUser xcUser = xcUserMapper.selectOne(lqw);
-
-        // 2.查询不到用户，返回null即可，SpringSecurity框架会自动抛出异常“用户不存在”
-        if (xcUser == null) {
-            return null;
+        // 1.将传入的JSON转成AuthParamsDto对象
+        AuthParamsDto authParamsDto = null;
+        try {
+            authParamsDto = JSON.parseObject(s, AuthParamsDto.class);
+        } catch (Exception e) {
+            throw new RuntimeException("请求认证的参数不符合要求");
         }
-        // 3.如果查到了用户并查询到正确的密码，将用户信息封装成UserDetails类型数据返回，SpringSecurity框架会比对密码是否正确，我们不用比对密码
-        String password = xcUser.getPassword();
 
+        // 2.判断登录的类型（认证类型,有password、wx）
+        String authType = authParamsDto.getAuthType();
+        String beanName = authType + "_authservice";
+        // 取出指定的bean
+        AuthService authService = applicationContext.getBean(beanName, AuthService.class);
+
+        // 3.调用统一认证方法完成认证
+        XcUserExt xcUserExt = authService.execute(authParamsDto);
+
+        // 4.封装XcUserExt为UserDetails类型
+        UserDetails userDetails = this.getUserPrincipal(xcUserExt);
+        return userDetails;
+    }
+
+    /**
+     * 将XcUserExt数据封装成UserDetails数据
+     *
+     * @param xcUserExt 用户id，主键
+     * @return com.xuecheng.ucenter.model.po.XcUser 用户信息
+     * @description 查询用户信息
+     */
+    public UserDetails getUserPrincipal(XcUserExt xcUserExt) {
+        String password = xcUserExt.getPassword();
         //用户权限,如果不加报Cannot pass a null GrantedAuthority collection
         String[] authorities = {"p1"};
-
-        xcUser.setPassword(""); // 为了安全考虑，专JSON前吧密码做空
-        String userString = JSON.toJSONString(xcUser);
+        xcUserExt.setPassword(""); // 为了安全考虑，专JSON前吧密码做空
+        String userString = JSON.toJSONString(xcUserExt);
         UserDetails userDetails = User.withUsername(userString)
                 //用户密码
                 .password(password)

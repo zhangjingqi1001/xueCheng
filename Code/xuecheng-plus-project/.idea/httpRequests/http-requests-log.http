@@ -1,3 +1,51 @@
+POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username={"username":"t1","password":"111111","authType":"password"}
+
+<> 2024-01-28T154231.200.json
+
+###
+
+POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username=t1&password=111111
+
+<> 2024-01-28T153738.401.json
+
+###
+
+POST http://localhost:63075/checkcode/verify?key=checkcode:ee3f4d9308534cbf9fe4672b34787d30&code=fbl4
+
+<> 2024-01-28T153725.200.json
+
+###
+
+POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=authorization_code&code=KbG3Hl&redirect_uri=http://www.51xuecheng.cn
+
+<> 2024-01-28T153403.401.json
+
+###
+
+POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username={"username":"t1","password":"111111","authType":"password"}
+
+<> 2024-01-28T152641.401.json
+
+###
+
+POST http://localhost:63075/checkcode/verify?key=checkcode:ee3f4d9308534cbf9fe4672b34787d30&code=fbl4
+
+<> 2024-01-28T145841.200.json
+
+###
+
+POST http://localhost:63075/checkcode/verify?key=checkcode:07a39f3c09ea41e1aac6c5d5855eee49&code=fbl4
+
+<> 2024-01-28T145459.200.json
+
+###
+
+POST http://localhost:63075/checkcode/pic
+
+<> 2024-01-28T145451.200.json
+
+###
+
 GET http://localhost:63040/content/course/40
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE2NzcyMTAzNjYsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjA1MTVlMjdlLWJlZTQtNDRhYS1iZDVlLTM2YTgxNGYxNTczOCIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.E4alAQwSJPiPHPWDUXIwR2KD-Yky1K_HZV7cIJXdytw
 
