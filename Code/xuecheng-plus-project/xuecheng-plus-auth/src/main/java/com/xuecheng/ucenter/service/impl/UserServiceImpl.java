@@ -2,9 +2,11 @@ package com.xuecheng.ucenter.service.impl;
 
 import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.xuecheng.ucenter.mapper.XcMenuMapper;
 import com.xuecheng.ucenter.mapper.XcUserMapper;
 import com.xuecheng.ucenter.model.dto.AuthParamsDto;
 import com.xuecheng.ucenter.model.dto.XcUserExt;
+import com.xuecheng.ucenter.model.po.XcMenu;
 import com.xuecheng.ucenter.model.po.XcUser;
 import com.xuecheng.ucenter.service.AuthService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -15,8 +17,15 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 @Component
 public class UserServiceImpl implements UserDetailsService {
+
+    @Autowired
+    XcMenuMapper xcMenuMapper;
 
     //注入，将来查询对象
     @Autowired
@@ -60,9 +69,22 @@ public class UserServiceImpl implements UserDetailsService {
      * @description 查询用户信息
      */
     public UserDetails getUserPrincipal(XcUserExt xcUserExt) {
+        // 权限信息
+        String[] authorities = {"p1"};
+
         String password = xcUserExt.getPassword();
         //用户权限,如果不加报Cannot pass a null GrantedAuthority collection
-        String[] authorities = {"p1"};
+        //TODO 根据用户id查询用户权限
+        List<XcMenu> xcMenus = xcMenuMapper.selectPermissionByUserId(xcUserExt.getId());
+        if (xcMenus.size() > 0) {
+            List<String> permissions = new ArrayList<>();
+            xcMenus.forEach(m -> {
+                // 拿到用户拥有的权限标识符
+                permissions.add(m.getCode());
+            });
+            //permissions 转成数组
+            authorities = permissions.toArray(new String[0]);
+        }
         xcUserExt.setPassword(""); // 为了安全考虑，专JSON前吧密码做空
         String userString = JSON.toJSONString(xcUserExt);
         UserDetails userDetails = User.withUsername(userString)
