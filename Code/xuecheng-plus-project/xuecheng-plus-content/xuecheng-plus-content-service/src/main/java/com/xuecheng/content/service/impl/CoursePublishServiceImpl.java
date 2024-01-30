@@ -297,8 +297,19 @@ public class CoursePublishServiceImpl implements CoursePublishService {
         // 发送Feign请求
         String upload = mediaServiceClient.upload(multipartFile, "course/" + courseId + ".html");
         if (upload == null) {
-            log.debug("远程调用走降级逻辑，得到的结果为null,课程id：{}",courseId);
+            log.debug("远程调用走降级逻辑，得到的结果为null,课程id：{}", courseId);
             XueChengPlusException.cast("上传静态文件异常");
         }
+    }
+
+    /**
+     * 查询课程发布信息
+     *
+     * @param courseId 课程id
+     * @return
+     */
+    @Override
+    public CoursePublish getCoursePublish(Long courseId) {
+        return coursePublishMapper.selectById(courseId);
     }
 }

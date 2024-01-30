@@ -5,25 +5,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee3004af-e83d-4fff-83bf-d7767a24a746" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/logs/2024-01-29/error.2024-01-29-00.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2024-01-29/error.2024-01-29-21.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2024-01-29/info.2024-01-29-00.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/2024-01-29/info.2024-01-29-21.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nginx-1.23.1/conf/nginx.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../nginx-1.23.1/conf/nginx.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nginx-1.23.1/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/../nginx-1.23.1/logs/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nginx-1.23.1/logs/nginx.pid" beforeDir="false" afterPath="$PROJECT_DIR$/../nginx-1.23.1/logs/nginx.pid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-api/src/main/java/com/xuecheng/LearningApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-api/src/main/java/com/xuecheng/learning/api/MyCourseTablesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-api/src/main/java/com/xuecheng/learning/api/MyLearningController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-api/src/main/java/com/xuecheng/learning/config/ResouceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-api/src/main/java/com/xuecheng/learning/config/TokenConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-api/src/main/java/com/xuecheng/learning/util/SecurityUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-api/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-api/src/main/resources/log4j2-dev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-api/src/test/java/com/xuecheng/orders/api/XuechengPlusOrdersApiApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-model/src/main/java/com/xuecheng/learning/model/dto/MyCourseTableItemDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-model/src/main/java/com/xuecheng/learning/model/dto/MyCourseTableParams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-model/src/main/java/com/xuecheng/learning/model/dto/XcChooseCourseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-model/src/main/java/com/xuecheng/learning/model/dto/XcCourseTablesDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-model/src/main/java/com/xuecheng/learning/model/po/XcChooseCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-model/src/main/java/com/xuecheng/learning/model/po/XcCourseTables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-model/src/main/java/com/xuecheng/learning/model/po/XcLearnRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-service/logs/2023-02-22/error.2023-02-22-20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-service/logs/2023-02-22/info.2023-02-22-20.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-service/logs/error.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-service/logs/info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-service/src/main/java/com/xuecheng/learning/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-service/src/main/java/com/xuecheng/learning/feignclient/ContentServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-service/src/main/java/com/xuecheng/learning/feignclient/ContentServiceClientFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-service/src/main/java/com/xuecheng/learning/feignclient/MediaServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-service/src/main/java/com/xuecheng/learning/feignclient/MediaServiceClientFallbackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-service/src/main/java/com/xuecheng/learning/mapper/XcChooseCourseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-service/src/main/java/com/xuecheng/learning/mapper/XcChooseCourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-service/src/main/java/com/xuecheng/learning/mapper/XcCourseTablesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-service/src/main/java/com/xuecheng/learning/mapper/XcCourseTablesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-service/src/main/java/com/xuecheng/learning/service/MyCourseTablesService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-service/src/main/java/com/xuecheng/learning/service/impl/MyCourseTablesServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-service/src/test/java/com/xuecheng/learning/FeignClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-service/src/test/java/com/xuecheng/learning/LearningApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-service/src/test/java/com/xuecheng/learning/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-service/src/test/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-service/src/test/resources/log4j2-dev.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-auth/src/main/java/com/xuecheng/ucenter/mapper/XcMenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-auth/src/main/java/com/xuecheng/ucenter/mapper/XcMenuMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-auth/src/main/java/com/xuecheng/ucenter/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-auth/src/main/java/com/xuecheng/ucenter/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-auth/target/classes/com/xuecheng/auth/controller/WxLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-auth/target/classes/com/xuecheng/auth/controller/WxLoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-auth/target/classes/com/xuecheng/ucenter/service/impl/WxAuthServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-auth/target/classes/com/xuecheng/ucenter/service/impl/WxAuthServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-base/src/main/java/com/xuecheng/base/exception/GlobalExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/CourseBaseInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/CourseBaseInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/CourseBaseInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/CourseBaseInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CourseBaseInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CourseBaseInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/test/java/com/xuecheng/content/CourseBaseInfoServiceTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/test/java/com/xuecheng/content/CourseBaseInfoServiceTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/CoursePublishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-api/src/main/java/com/xuecheng/content/api/CoursePublishController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/po/CoursePublish.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-model/src/main/java/com/xuecheng/content/model/po/CoursePublish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/logs/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/CoursePublishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/CoursePublishService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CoursePublishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/main/java/com/xuecheng/content/service/impl/CoursePublishServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/test/java/com/xuecheng/content/TeachplanMapperTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-content/xuecheng-plus-content-service/src/test/java/com/xuecheng/content/TeachplanMapperTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Note/7. 支付模块 - 用户选课.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +68,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -128,22 +163,35 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SystemApplication">
-    <configuration name="xc-auth-api | 密码模式，请求AuthParamsDto参数" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-auth-api.http" index="4" requestIdentifier="密码模式，请求AuthParamsDto参数" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="xc-auth-api | 密码模式" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/xc-auth-api.http" index="2" requestIdentifier="密码模式" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="xuecheng-plus-auth" />
+  <component name="RunManager" selected="JUnit.FeignClientTest.testContentServiceClient">
+    <configuration name="FeignClientTest.testContentServiceClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xuecheng-plus-learning-service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xuecheng.*" />
+          <option name="PATTERN" value="com.xuecheng.learning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xuecheng.AuthApplication" />
+      <option name="PACKAGE_NAME" value="com.xuecheng.learning" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.learning.FeignClientTest" />
+      <option name="METHOD_NAME" value="testContentServiceClient" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TeachplanMapperTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="xuecheng-plus-content-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xuecheng.content.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xuecheng.content" />
+      <option name="MAIN_CLASS_NAME" value="com.xuecheng.content.TeachplanMapperTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -211,22 +259,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="HTTP Request.xc-auth-api | 密码模式，请求AuthParamsDto参数" />
       <item itemvalue="Spring Boot.MediaApplication2" />
       <item itemvalue="Spring Boot.XxlJobExecutorApplication" />
       <item itemvalue="Spring Boot.XxlJobAdminApplication" />
-      <item itemvalue="Spring Boot.AuthApplication" />
       <item itemvalue="Spring Boot.ContentApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
       <item itemvalue="Spring Boot.SystemApplication" />
+      <item itemvalue="JUnit.FeignClientTest.testContentServiceClient" />
+      <item itemvalue="JUnit.TeachplanMapperTests.test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FeignClientTest.testContentServiceClient" />
+        <item itemvalue="Spring Boot.ContentApplication" />
+        <item itemvalue="JUnit.TeachplanMapperTests.test" />
         <item itemvalue="Spring Boot.SystemApplication" />
         <item itemvalue="Spring Boot.GatewayApplication" />
-        <item itemvalue="Spring Boot.ContentApplication" />
-        <item itemvalue="Spring Boot.AuthApplication" />
-        <item itemvalue="HTTP Request.xc-auth-api | 密码模式，请求AuthParamsDto参数" />
       </list>
     </recent_temporary>
   </component>
@@ -284,6 +332,7 @@
       <workItem from="1706459824813" duration="110000" />
       <workItem from="1706460166292" duration="2883000" />
       <workItem from="1706533805134" duration="6380000" />
+      <workItem from="1706620310806" duration="9479000" />
     </task>
     <servers />
   </component>
@@ -334,6 +383,11 @@
           <url>file://$PROJECT_DIR$/xuecheng-plus-auth/src/main/java/com/xuecheng/ucenter/service/impl/PasswordAuthServiceImpl.java</url>
           <line>55</line>
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/xuecheng-plus-learning/xuecheng-plus-learning-service/src/test/java/com/xuecheng/learning/FeignClientTest.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -8,11 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="xxl-job-core" />
+        <module name="xxl-job-executor-sample-frameless" />
         <module name="xxl-job-executor-sample-springboot" />
         <module name="xxl-job-admin" />
-        <module name="xxl-job-executor-sample-frameless" />
       </profile>
-      <profile name="Annotation profile for xuecheng-plus-content" enabled="true">
+      <profile name="Annotation profile for xuecheng-plus-checkcode" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -22,6 +22,7 @@
         <module name="xuecheng-plus-message-sdk" />
         <module name="xuecheng-plus-checkcode" />
         <module name="xuecheng-plus-media-api" />
+        <module name="xuecheng-plus-learning-model" />
         <module name="xuecheng-plus-content-service" />
         <module name="xuecheng-plus-search" />
         <module name="xuecheng-plus-media-service" />
@@ -29,12 +30,14 @@
         <module name="xuecheng-plus-generator" />
         <module name="xuecheng-plus-media-model" />
         <module name="xuecheng-plus-base" />
+        <module name="xuecheng-plus-learning-api" />
         <module name="xuecheng-plus-system-service" />
         <module name="xuecheng-plus-gateway" />
         <module name="xuecheng-plus-system-model" />
         <module name="xuecheng-plus-system-api" />
         <module name="xuecheng-plus-auth" />
         <module name="xuecheng-plus-content-api" />
+        <module name="xuecheng-plus-learning-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -47,6 +50,10 @@
       <module name="xuecheng-plus-content-service" target="1.8" />
       <module name="xuecheng-plus-gateway" target="1.8" />
       <module name="xuecheng-plus-generator" target="1.8" />
+      <module name="xuecheng-plus-learning" target="1.8" />
+      <module name="xuecheng-plus-learning-api" target="1.8" />
+      <module name="xuecheng-plus-learning-model" target="1.8" />
+      <module name="xuecheng-plus-learning-service" target="1.8" />
       <module name="xuecheng-plus-media" target="1.8" />
       <module name="xuecheng-plus-media-api" target="1.8" />
       <module name="xuecheng-plus-media-model" target="1.8" />
